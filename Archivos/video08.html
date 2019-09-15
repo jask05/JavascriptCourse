@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Usando Arrays</title>
+	<link rel="stylesheet" href="video07_css/micss.css">
+	<script>
+		/* var articulos = ["zapatillas", "camisetas", "pantalón", "calcetines"]; */
+		var articulos = new Array("zapatillas", "camisetas", "pantalón", "calcetines");
+		var arrayvacio = [];
+
+	</script>
+</head>
+
+<body>
+	<div class="contenedor">
+		<div class="header">
+			<p class="logo">JavaScript Arrays <i class="mm">Píldoras Informáticas
+			</p>
+		</div>
+		<div class="contenido">
+			<div class="principal">
+				<h1>Manejando Arrays</h1>
+				<script>
+					document.write("<p> El primer artículo es: <strong>" + articulos[0] + "</strong></p>");
+					document.write("<p> El array tiene <strong>" + articulos.length + "</strong> elementos.</p>");
+					document.write("<p> El último elemento del array es <strong>" + articulos[articulos.length-1] + "</strong>.</p>");
+
+					// Añadiendo un elemento más al comienzo
+					articulos.unshift("balón");
+					document.write("<p> El primer artículo (nuevo) es: <strong>" + articulos[0] + "</strong></p>");
+
+					// Añadiendo un elemento más al final
+					articulos.push(prompt("Introduce el último artículo"));
+					document.write("<p> Nuevo elemento añadido al final del array por un usuario. Es <strong>" + articulos[articulos.length-1] + "</strong>.</p>");
+
+					// Borrando el primer elemento.
+					articulos.shift()
+					document.write("<p> Primer elemento después de borrarlo: <strong>" + articulos[0] + "</strong>.</p>");
+
+					// Elimina el último elemento
+					articulos.pop()
+					document.write("<p> Último elemento después de borrarlo: <strong>" + articulos[articulos.length-1] + "</strong>.</p>");
+
+				</script>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>
