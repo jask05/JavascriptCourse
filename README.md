@@ -4,16 +4,17 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 
 ## Vistos
 
-- [Vídeo 01 - Presentación](https://www.youtube.com/watch?v=m2nscBtQEIs)
-- [Vídeo 02 - Introducción](https://www.youtube.com/watch?v=QrVO_dvjU-M&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=2)
-- [Video 03 - Sintaxis Básica I. Ubicación del código](https://www.youtube.com/watch?v=zSYj95x5WrU&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=3)
-- [Video 04 - Sintaxis Básica II. Estructuras Básicas ](https://www.youtube.com/watch?v=SVmKhuAWvY4&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=4)
-- [Video 05 - Sintaxis Básica III. Operadores Básicos ](https://www.youtube.com/watch?v=eidffYi0kUk&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=5)
-- [Video 06 - Sintaxis Básica IV. Operadores y prompt ](https://www.youtube.com/watch?v=f719B0LDpiE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=6)
-- [Video 07 - Sintaxis Básica V. Arrays, Matrices, Arreglos ](https://www.youtube.com/watch?v=hTeFMke6F6Q&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=7)
-- [Video 08 - Sintaxis Básica V. Arrays, Matrices, Arreglos II ](https://www.youtube.com/watch?v=yn-o0rxXW0o&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=8)
-- [Video 09 - POO I ](https://www.youtube.com/watch?v=6wB-0QSkk3Y&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=9)
-
+- [ Video 01 - Presentación](https://www.youtube.com/watch?v=m2nscBtQEIs)
+- [ Video 02 - Introducción](https://www.youtube.com/watch?v=QrVO_dvjU-M&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=2)
+- [ Video 03 - Sintaxis Básica I. Ubicación del código](https://www.youtube.com/watch?v=zSYj95x5WrU&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=3)
+- [ Video 04 - Sintaxis Básica II. Estructuras Básicas ](https://www.youtube.com/watch?v=SVmKhuAWvY4&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=4)
+- [ Video 05 - Sintaxis Básica III. Operadores Básicos ](https://www.youtube.com/watch?v=eidffYi0kUk&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=5)
+- [ Video 06 - Sintaxis Básica IV. Operadores y prompt ](https://www.youtube.com/watch?v=f719B0LDpiE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=6)
+- [ Video 07 - Sintaxis Básica V. Arrays, Matrices, Arreglos ](https://www.youtube.com/watch?v=hTeFMke6F6Q&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=7)
+- [ Video 08 - Sintaxis Básica V. Arrays, Matrices, Arreglos II ](https://www.youtube.com/watch?v=yn-o0rxXW0o&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=8)
+- [ Video 09 - POO I ](https://www.youtube.com/watch?v=6wB-0QSkk3Y&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=9)
+- [ Video 10 - POO II ](https://www.youtube.com/watch?v=CfKVU0i7w_w&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=10)
+- [ Video 11 - Control de flujo. Condicional If I ](https://www.youtube.com/watch?v=jI2pp0ILs40&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=11)
 
 # Apuntes
 
@@ -125,23 +126,16 @@ alert(articulos[0]);
 ```
 - Propiedades y métodos del array
 	- **Length**: nº de elementos de un array.
+	- **Push**: agrega elemento o elementos a continuacuión del array.
+	- **Unshift**: agrega elemento o elementos a comienzo del array.
+	- **Pop**: elimina elementos al final del array.
+	- **Shift**: elimina elementos al comienzo del array.
+
 ```javascript
 alert(articulos.length);
-```
-	- **Push**: agrega elemento o elementos a continuacuión del array.
-```javascript
 articulos.push("balón", "raqueta", "bolsa");
-```
-	- **Unshift**: agrega elemento o elementos a comienzo del array.
-```javascript
 articulos.unshift("balón", "raqueta", "bolsa");
-```
-	- **Pop**: elimina elementos al final del array.
-```javascript
 articulos.pop();
-```
-	- **Shift**: elimina elementos al comienzo del array.
-```javascript
 articulos.shift();
 ```
 
@@ -149,6 +143,46 @@ articulos.shift();
 - Utilizando push y unshift
 
 ## Video 09 - POO I
+- Lenguajes orientados a procedimientos.
+- Lenguajes orientados a objetos.
+	- Objeto: coche, lavadora, mesa, etc.
+	- Características (propiedades): alto, ancho, color, peso, etc.
+	- Capacidades (función/método): lavar ropa, soportar objetos, arrancar, girar, parar, etc.
+- Nomenclatura del punto
+	- Se utiliza la jerarquía y el operador punto:
+		- document.write();
+		- window.alert();
+		- boton.style.width="500px";
+		- boton.style.backgroundColor="red";
+		- boton.focus();	
+
+## Video 10 - POO II
+- Cambios con style y uso de getElementById
+
+## Video 11 - Control de flujo. Condicional If I
+- Permite alterar el flujo de ejecución del script/programa.
+- Operadores de comparación
+	- **==**: Igual que...
+	- **!=**: diferente que...
+	- **>**: mayor que...
+	- **<**: menor que...
+	- **>=**: mayor o igual que...
+	- **<=**: menor o igual que...
+	- **===**: estrictamente igual que... (comprueba también el tipo)
+	- **!==**: estrictamente diferente que... (comprueba tipos)
+- Operadores lógicos
+	- **&&**: Y lógico.
+	- **||**: O lógico.
+	
+```javascript
+if(condicion){
+	// código
+}
+// A partir de aquí es opcional.
+else{
+	// código 2
+}
+```
 
 # Notas
 	- Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
