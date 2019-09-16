@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 12 - Calculadora</title>
+	<script>
+		var num1 = prompt("Primer número");
+		var num2 = prompt("Segundo número");
+
+		if(isNaN(num1) || isNaN(num2)){ 
+			alert("Números inválidos");
+		}else{
+
+			var op	 = prompt("Operación (suma / resta / multiplicación / división)");
+
+			if(op == "suma"){
+				alert(parseInt(num1)+parseInt(num2));
+			}else if(op == "resta"){
+				alert(parseInt(num1)-parseInt(num2));
+			}else if(op == "multiplicación" || op == "multiplicacion"){
+				alert(parseInt(num1)*parseInt(num2));
+			}else if(op == "división" || op == "division"){
+				alert(parseInt(num1)/parseInt(num2));
+			}else{
+				if(typeof(num1) == "string" || typeof(num2) == "string"){
+					alert("Los valores que has introducido NO son numéricos.");
+				}else{
+					alert("Error no identificado.")
+				}
+				
+			}
+		}
+
+	</script>
+</head>
+
+<body id="cuerpo">
+
+</body>
+
+</html>
