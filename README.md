@@ -15,6 +15,10 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [ Video 09 - POO I ](https://www.youtube.com/watch?v=6wB-0QSkk3Y&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=9)
 - [ Video 10 - POO II ](https://www.youtube.com/watch?v=CfKVU0i7w_w&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=10)
 - [ Video 11 - Control de flujo. Condicional If I ](https://www.youtube.com/watch?v=jI2pp0ILs40&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=11)
+- [ Video 12 - Control de flujo. Condicional If II ](https://www.youtube.com/watch?v=nal3um27Cfk&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=12)
+- [ Video 13 - Control de flujo. Condicional If III ](https://www.youtube.com/watch?v=XP7iqGXFdoQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=13)
+- [ Video 14 - Control de flujo. Condicional If IV ](https://www.youtube.com/watch?v=h31VfupJ9Ds&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=14)
+- [ Vídeo 15 - Control de flujo. While I](https://www.youtube.com/watch?v=-s1c-4mbNSQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=15)
 
 # Apuntes
 
@@ -170,9 +174,18 @@ articulos.shift();
 	- **<=**: menor o igual que...
 	- **===**: estrictamente igual que... (comprueba también el tipo)
 	- **!==**: estrictamente diferente que... (comprueba tipos)
-- Operadores lógicos
-	- **&&**: Y lógico.
-	- **||**: O lógico.
+
+## Video 12 - Control de flujo. Condicional If II
+- If/else/else if
+- AND y OR
+- Métodos
+	- **toLowerCase()**: transforma el string en minúsculas.
+	- **toUppderCase()**: transforma el string en mayúsculas.
+	- **typeOf()**: devuelve el tipo de variable la cual se le pasa por parámetro.
+	- **parseInt()**: transforma un string en número entero.
+
+## Video 13 - Control de flujo. Condicional If III
+- Anidamiento de If.
 	
 ```javascript
 if(condicion){
@@ -183,6 +196,20 @@ else{
 	// código 2
 }
 ```
+
+## Video 12 - Control de flujo. Condicional If II
+- Operadores lógicos
+	- **&&**: Y lógico.
+	- **||**: O lógico.
+
+## Video 13 - Control de flujo. Condicional If III
+- Calculadora mediante prompts.
+
+## Video 14 - Control flujo. Condicional If IV
+- Calculadora mediante prompts + casos en el que se introducen valores no controlados.
+- **isNaN()**: comprueba si NO es un número. Falso si es un número.
+
+## Video 15 - Control de flujo. While I
 
 # Notas
 	- Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
