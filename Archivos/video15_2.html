@@ -1,0 +1,48 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 15 - 2</title>
+    <style>
+        #contenedor{
+            width: 25%;
+            background-color: #FFC;
+            margin: auto;
+            padding: 15px;
+        }
+    </style>
+
+    <script>
+        var nombre, edad, poblacion;
+        nombre = prompt("Introduce tu nombre");
+        edad = prompt("Introduce tu edad");
+        while(edad <= 0 || edad > 100){
+            edad = prompt("Introduce tu edad");
+        }
+        poblacion = prompt("Introduce población");
+
+
+    </script>
+
+</head>
+
+<body>
+	<div id="contenedor">
+        <p>
+            Nombre:
+            <script>document.write(nombre);</script>
+        </p>
+        <p>
+            Edad:
+            <script>document.write(edad);</script>
+        </p>
+        <p>
+            Población:
+            <script>document.write(poblacion);</script>
+        </p>
+    </div>
+
+</body>
+
+</html>

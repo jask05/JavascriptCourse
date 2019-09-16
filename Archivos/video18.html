@@ -1,0 +1,52 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Video 18</title>
+
+</head>
+
+<body>
+    <table width="25%">
+        <tr>
+            <td><label for="textfield">Mensaje</label><input type="text" name="textfield" id="c_mensaje"></td>
+        </tr>
+        <tr>
+            <td><label for="textfield2">Intentos</label><input type="text" name="textfield2" id="c_intentos"></td>
+        </tr>
+    </table>
+
+    <script>
+        var aleatorio, adivina, minum, intentos;
+
+        aleatorio = Math.random() * 100;
+        aleatorio = Math.round(aleatorio);
+
+        minum = 0;
+        intentos = 0;
+
+        var mensaje = document.getElementById("c_mensaje");
+        var intentos_consumidos = document.getElementById("c_intentos");
+
+        do{
+            minum = prompt("Introduce un nº entre 0 y 100");
+
+            if(aleatorio > minum){
+                mensaje.value = "El número es más alto.";
+            }
+
+            if(aleatorio < minum){
+                mensaje.value = "El número es más bajo.";
+            }
+
+            intentos++;
+        } while (aleatorio != minum);
+
+        intentos_consumidos.value = intentos;
+        document.write = "Número correcto.";
+
+    </script>
+</body>
+
+</html>

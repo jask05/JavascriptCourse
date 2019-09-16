@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 16</title>
+    <style>
+        #contenedor{
+            width: 25%;
+            background-color: #FFC;
+            margin: auto;
+            padding: 15px;
+        }
+    </style>
+
+    <script>
+        var nombre, edad, poblacion;
+        nombre = prompt("Introduce tu nombre", "Nombre");
+        while(!isNaN(nombre)){
+            nombre = prompt("Introduce tu nombre", "Nombre");
+        }
+
+        edad = prompt("Introduce tu edad", "Edad");
+        while(edad <= 0 || edad > 100 || isNaN(edad)){
+            edad = prompt("Introduce tu edad", "Edad");
+        }
+
+        poblacion = prompt("Introduce tu población", "Población");
+        while(!isNaN(poblacion)){
+            poblacion = prompt("Introduce tu población", "Población");
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+	<div id="contenedor">
+        <p>
+            Nombre:
+            <script>document.write(nombre);</script>
+        </p>
+        <p>
+            Edad:
+            <script>document.write(edad);</script>
+        </p>
+        <p>
+            Población:
+            <script>document.write(poblacion);</script>
+        </p>
+    </div>
+
+</body>
+
+</html>
