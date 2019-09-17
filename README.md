@@ -19,6 +19,9 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [ Video 13 - Control de flujo. Condicional If III ](https://www.youtube.com/watch?v=XP7iqGXFdoQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=13)
 - [ Video 14 - Control de flujo. Condicional If IV ](https://www.youtube.com/watch?v=h31VfupJ9Ds&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=14)
 - [ Vídeo 15 - Control de flujo. While I](https://www.youtube.com/watch?v=-s1c-4mbNSQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=15)
+- [ Vídeo 16 - Control de flujo. While II](https://www.youtube.com/watch?v=Sj6m_3cJA2U&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=16)
+- [ Vídeo 17 - Control de flujo. Do While I](https://www.youtube.com/watch?v=AQn74J9lPyA&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=17)
+- [ Vídeo 18 - Control de flujo. Do While II](https://www.youtube.com/watch?v=8u1fdOYJ_VQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=18)
 
 # Apuntes
 
@@ -178,6 +181,9 @@ articulos.shift();
 ## Video 12 - Control de flujo. Condicional If II
 - If/else/else if
 - AND y OR
+	- Operadores lógicos
+		- **&&**: Y lógico.
+		- **||**: O lógico.
 - Métodos
 	- **toLowerCase()**: transforma el string en minúsculas.
 	- **toUppderCase()**: transforma el string en mayúsculas.
@@ -197,19 +203,49 @@ else{
 }
 ```
 
-## Video 12 - Control de flujo. Condicional If II
-- Operadores lógicos
-	- **&&**: Y lógico.
-	- **||**: O lógico.
-
-## Video 13 - Control de flujo. Condicional If III
-- Calculadora mediante prompts.
-
 ## Video 14 - Control flujo. Condicional If IV
 - Calculadora mediante prompts + casos en el que se introducen valores no controlados.
 - **isNaN()**: comprueba si NO es un número. Falso si es un número.
 
-## Video 15 - Control de flujo. While I
+## Video 15 - Control de flujo. Bucle While I
+- Bucles
+	- Determinados: for.
+		- Sin llegar a ejecutar el programa se sabe cuántas veces se va a repetir los elementos dentro de este.
+	- Indeterminados: while, do while.
+		- Sin ejecutar el programa **no se sabe** cuántas veces se va a repetir los elementos dentro de este.
+- Sintáxis
+```javascript
+while(condicion){
+	// código a repetir
+}
+// continúa el programa
+```
+
+## Video 16 - Control de flujo. Bucle While II
+- While repetitivos hasta que se cumpla la condición.
+
+```javascript
+edad = prompt("Introduce tu edad");
+while(edad <= 0 || edad > 100 || isNaN(edad)){
+    edad = prompt("Introduce tu edad");
+}
+```
+
+## Vídeo 17 - Control de flujo. Do While I
+- Utilidad exacta que a un While (con algún matiz).
+- En el bucle While (normal), si la condición es falsa, nunca se ejecuta el programa. En Do-While el código que está dentro se ejecuta una vez (aunque sea falsa).
+
+```javascript
+do {
+	// código a repetir mientras la condición del bucle sea cierta.
+}while(condición);
+
+// continúa el programa
+```
+
+## Vídeo 18 - Control de flujo. Do While II
+
 
 # Notas
 	- Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
+	- **Prompt**: el segundo parámetro que se le pasa es el mensaje de ayuda que aparecería en el cuadro de texto (como un placeholder).
