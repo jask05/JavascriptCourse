@@ -1,6 +1,6 @@
 # Javascriptcourse
-
 Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/watch?v=m2nscBtQEIs&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID)
+
 
 ## Vistos
 
@@ -24,6 +24,9 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [ Vídeo 18 - Control de flujo. Do While II](https://www.youtube.com/watch?v=8u1fdOYJ_VQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=18)
 - [ Vídeo 19 - Control de flujo. Bucle For I](https://www.youtube.com/watch?v=6rVh5uax0EA&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=19)
 - [ Video 20 - Control de flujo. Bucle For II](https://www.youtube.com/watch?v=_hIrAJ_ogpI&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=20)
+- [ Video 21 - Funciones I](https://www.youtube.com/watch?v=uUfYLGVLHfI&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=21)
+- [ Video 22 - Funciones II. Paso de parámetros](https://www.youtube.com/watch?v=n7IKmbVKgdU&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=22)
+- [ Video 23 - Funciones III. Calculadora arcáica](https://www.youtube.com/watch?v=FhIDjFUCuhs&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=23)
 
 # Apuntes
 
@@ -259,6 +262,33 @@ for(inicio;condicion;incremento/decremento){
 ```
 
 ## Video 20 - Control de flujo. Bucle For II
+- No hay notas
+
+## Video 21 - Funciones I
+- Forma de repetir trozos de código sin tener que re-escribirlos cada vez que se necesitan utilizar.
+- Dentro de una función puede haber llamadas a otras funciones.
+```javascript
+function nombre_de_la_funcion(){
+	// contenido
+}
+
+// Llamada a la función
+nombre_de_la_funcion();
+```
+
+## Video 22 - Funciones II. Paso de parámetros.
+- **Parámetros y argumentos**: elemento adicional (opcional) que se le pasa a la función para añadir contenido a la acción a realizar.
+	- **NO** se deben definir las variables que se pasan por argumento (var num1, var num2) en la función.
+	- Se deben pasar los parámetros que se solicitan, **nunca** más, pero pueden ser menos.
+```javascript
+function suma(num1, num2){
+	var resultado = num1 + num2;
+}
+
+// Llamada a la función
+suma(5,7);
+```
+## Video 23 - Funciones III. Calculadora arcáica.
 
 
 # Notas
