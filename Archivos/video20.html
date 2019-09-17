@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Video 19</title>
+	<script>
+		var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+		var i;
+		for(i=0; i<meses.length; i++){
+			document.write(meses[i] + "<br>");
+		}
+
+		var trabajadores = new Array();
+		var persona = "";
+		var contador = 0;
+
+		while(persona != "salir"){
+			persona = prompt("Introduce trabajador");
+			trabajadores[contador] = persona;
+			contador++;
+		}
+
+		document.write("<br>------------<br>");
+
+		trabajadores.pop(); // Otra forma de borrar la palabra "salir";
+
+		for(var i=0;i<trabajadores.length;i++){
+			/* if(trabajadores[i] != "salir"){ */
+				document.write(trabajadores[i] + "<br>");
+			/* } */
+		}
+	</script>
+</head>
+
+<body>
+    
+</body>
+
+</html>
