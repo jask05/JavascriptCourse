@@ -22,6 +22,8 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [ Vídeo 16 - Control de flujo. While II](https://www.youtube.com/watch?v=Sj6m_3cJA2U&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=16)
 - [ Vídeo 17 - Control de flujo. Do While I](https://www.youtube.com/watch?v=AQn74J9lPyA&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=17)
 - [ Vídeo 18 - Control de flujo. Do While II](https://www.youtube.com/watch?v=8u1fdOYJ_VQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=18)
+- [ Vídeo 19 - Control de flujo. Bucle For I](https://www.youtube.com/watch?v=6rVh5uax0EA&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=19)
+- [ Video 20 - Control de flujo. Bucle For II](https://www.youtube.com/watch?v=_hIrAJ_ogpI&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=20)
 
 # Apuntes
 
@@ -244,6 +246,19 @@ do {
 ```
 
 ## Vídeo 18 - Control de flujo. Do While II
+- No hay notas
+
+## Vídeo 19 - Control de flujo. Bucle For I
+- Tipo de bucle: determinado
+
+```javascript
+for(inicio;condicion;incremento/decremento){
+	// código a repetir
+}
+// continúa el programa
+```
+
+## Video 20 - Control de flujo. Bucle For II
 
 
 # Notas
