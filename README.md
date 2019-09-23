@@ -32,6 +32,8 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 26 - Funciones. Práctica guiada II ](https://www.youtube.com/watch?v=QdzPfkmXX2E&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=26)
 - [Video 27 - Funciones. Práctica guiada III ](https://www.youtube.com/watch?v=gr1PPIrCtc8&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=27)
 - [Video 28 - Funciones. Práctica guiada IV ](https://www.youtube.com/watch?v=dY8srH7RDKE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=28)
+- [Video 29 - jQuery I ](https://www.youtube.com/watch?v=VEJZFbjOICs&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=29)
+- [Video 30 - jQuery y el DOM ](https://www.youtube.com/watch?v=J8_LGy1gGqo&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=30)
 
 # Apuntes
 
@@ -325,6 +327,33 @@ suma(5,7);
 - Añadiendo funcionalidad al botón igual (=).
 
 ## Video 28 - Funciones. Práctica guiada IV
+- Terminando la calculadora (solo suma y restra).
+
+## Video 29 - jQuery I
+- Librería de Javascript que ayuda en la creación de tareas frecuentes a la hora de programar en Javascript. Ejemplo:
+	- Seleccionar elementos.
+	- Agregar nuevo contenido.
+	- Ocultar y mostrar elementos de una web.
+	- Validación de formularios.
+	- Efectos visuales vistosos.
+- Características
+	- Pequeña y ligera. Menos de 100kb.
+	- CSS "friendly".
+	- Ampliamente testeada.
+	- Gratis.
+	- Gran comunidad de soporte.
+	- Numerosos plugins que realizan tareas más frecuentes.
+- Agregar librería
+	- Link: Microsoft/Jquery/Google.
+	- De manera local descargando la librearía.
+	- Estructura dentro del **head**:
+		- <script src="js/jquery-x.xx.x.js"></script>
+		- <script>$(document).ready(function(){código});</script>
+	- Forma reducida
+		- $(function() {código});
+	- **IMPORTANTE**: El código debe ir dentro del head pero **siempre después** del código CSS.
+
+## Video 30 - jQuery y el DOM.
 
 # Notas
 	- Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
