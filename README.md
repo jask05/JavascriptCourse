@@ -27,6 +27,11 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [ Video 21 - Funciones I](https://www.youtube.com/watch?v=uUfYLGVLHfI&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=21)
 - [ Video 22 - Funciones II. Paso de parámetros](https://www.youtube.com/watch?v=n7IKmbVKgdU&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=22)
 - [ Video 23 - Funciones III. Calculadora arcáica](https://www.youtube.com/watch?v=FhIDjFUCuhs&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=23)
+- [ Video 24 - Funciones y eventos. Introducción a eventos ](https://www.youtube.com/watch?v=yfWcTBufkcM&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=24)
+- [Video 25 - Funciones. Práctica guiada I ](https://www.youtube.com/watch?v=mQajJT80_c4&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=25)
+- [Video 26 - Funciones. Práctica guiada II ](https://www.youtube.com/watch?v=QdzPfkmXX2E&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=26)
+- [Video 27 - Funciones. Práctica guiada III ](https://www.youtube.com/watch?v=gr1PPIrCtc8&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=27)
+- [Video 28 - Funciones. Práctica guiada IV ](https://www.youtube.com/watch?v=dY8srH7RDKE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=28)
 
 # Apuntes
 
@@ -289,7 +294,37 @@ function suma(num1, num2){
 suma(5,7);
 ```
 ## Video 23 - Funciones III. Calculadora arcáica.
+- Realizando calculadora mediante prompts y Do-while.
 
+## Video 24 - Funciones y eventos. Introducción a eventos
+- **Eventos**: desencadenantes de acciones
+	- Pasar por encima de una imagen, click con el botón izquierdo, seleccionar URL, etc.
+	- Permite interactuar con la página web.
+- Tres niveles marcados por W3C:
+	- DOM Nivel 1: modelo básico de eventos.
+	- DOM Nivel 2: modelo de eventos estándar.
+	- Modelo de eventos de Internet Explorer.
+- Eventos mas importantes
+	- **onBlur** => Deseleccionar el elemento => button, input, label, select, textarea, body.
+	- **onChange** => Deseleccioanr un elemento que se ha modificado => input, select, textarea.
+	- **onClick** => Pinchar y soltar el ratón => Todos los elementos.
+	- **ondbclick** => Pinchar dos veces seguidas con el ratón => Todos los elementos.
+	- **onfocus** => Seleccioanr un elemento => button, input, label, select, textarea, body.
+	- **onkeydown** => Pulsar una tecla (sin soltar) => Elementos de formulario y body.
+	- **onkeypress** => Pulsar una tecla => Elementos de formulario y body.
+	- **onkeyup** => Soltar una tecla pulsada => Elementos de formulario y body.
+
+## Video 25 - Funciones. Práctica guiada I
+- Se añade función onClick a los botones para que aparezcan los números en el visor.
+- Se añade el comportamiento de concatenación de números al ser pulsados.
+
+## Video 26 - Funciones. Práctica guiada II
+- Añadida funcionalidad al botón de sumar, acumulando el valor si se pulsa más de una vez dicho botón.
+
+## Video 27 - Funciones. Práctica guiada III
+- Añadiendo funcionalidad al botón igual (=).
+
+## Video 28 - Funciones. Práctica guiada IV
 
 # Notas
 	- Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.

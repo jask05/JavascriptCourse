@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Video 23</title>
+	<script>
+        function suma(num1, num2){ document.write("La suma es: " + (num1+num2)); }
+        function resta(num1, num2){ document.write("La resta es: " + (num1-num2)); }
+        function multiplicar(num1, num2){ document.write("La multiplicar es: " + (num1*num2)); }
+        function dividir(num1, num2){ document.write("La dividir es: " + (num1/num2)); }
+
+        var operacion = prompt("¿Qué operación desea realizar?");
+        var op1       = parseInt(prompt("Primer número"));
+        var op2       = parseInt(prompt("Segundo número"));
+
+        if(operacion == "sumar" || operacion == "suma"){
+            suma(op1, op2);
+        }else if(operacion == "restar" || operacion == "resta"){
+            resta(op1,op2);
+        }else if(operacion == "multiplica" || operacion == "multiplicar"){
+            multiplicar(op1,op2);
+        }else if(operacion == "divide" || operacion == "dividir"){
+            dividir(op1, op2);
+        }else{
+            alert("NO existe el tipo de operación que quiere utilizar");
+        }
+    </script>
+</head>
+
+<body>
+    
+</body>
+
+</html>
