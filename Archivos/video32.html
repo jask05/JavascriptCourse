@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 32</title>
+	
+	<!-- CSS -->
+	<style>
+	.micontenedor {
+		background-color: brown;
+	}
+	</style>
+
+    <!-- jQuery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script>
+		/* jQuery */
+		$(document).ready(function(){
+			// Muestra el HTML dentro de #errores
+			/* alert($("#errores ").html()); */
+
+			// Sobrescribe el contenido de #errores
+			$("#errores").html("<h3>Remplazando HTML con jQuery.</h3>");
+
+			// Añade contenido a continuación de la etiqueta
+			$("#errores").append("<p>Hay errores en el formulario</p>");
+			
+			// Añade contenido antes de la etiqueta
+			$("#errores").prepend("<p>Antes de ...</p>");
+
+			// Añade contenido antes del propio contenido al que apunta (fuera de)
+			$("#errores").before("<p>Antes de (before) ...</p>");
+			
+			// Añade contenido después del propio contenido al que apunta (fuera de)
+			$("#errores").after("<p>Después de (after) ...</p>");
+
+			// Sustituye texto por otro pero NO es capaz de usar etiquetas HTML.
+			$("#errores").text("<h4>Ejemplo con H4.</h4>");
+		});
+	</script>
+
+
+</head>
+
+<body>
+	<div id="errores" class="micontenedor">
+		<h2>Errores!</h2>
+	</div>
+
+	<script>
+
+	</script>
+
+</body>
+
+</html>

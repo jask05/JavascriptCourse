@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 32</title>
+	
+	<!-- CSS -->
+	<style>
+	.micontenedor {
+		background-color: brown;
+	}
+	</style>
+
+    <!-- jQuery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script>
+		
+		function validar(){
+			var nombreUsuario = document.getElementById("usuario").value;
+			if(nombreUsuario == ""){
+				$("#usuario").after("<strong>Rellena este campo, por favor.</strong>");
+			}
+		}
+		
+		/* jQuery */
+		/* $(document).ready(function(){
+			
+		}); */
+	</script>
+
+
+</head>
+
+<body>
+	<form action="" method="GET">
+		<input name="" type="text" id="usuario" onblur="validar()"><br>
+		<input name="" type="text" id="nombre"><br>
+		<input name="" type="text" id="apellido"><br>
+		<input type="submit" value="Enviar">
+	</form>
+
+</body>
+
+</html>

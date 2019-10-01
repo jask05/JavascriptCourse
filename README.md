@@ -33,7 +33,15 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 27 - Funciones. Práctica guiada III ](https://www.youtube.com/watch?v=gr1PPIrCtc8&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=27)
 - [Video 28 - Funciones. Práctica guiada IV ](https://www.youtube.com/watch?v=dY8srH7RDKE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=28)
 - [Video 29 - jQuery I ](https://www.youtube.com/watch?v=VEJZFbjOICs&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=29)
-- [Video 30 - jQuery y el DOM ](https://www.youtube.com/watch?v=J8_LGy1gGqo&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=30)
+- [Video 30 - jQuery II. El DOM ](https://www.youtube.com/watch?v=J8_LGy1gGqo&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=30)
+- [Video 31 - jQuery III. Diferencias con el DOM ](https://www.youtube.com/watch?v=vovHwdwSUCY&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=31)
+- [Video 32 - jQuery IV. Agregando contenido ](https://www.youtube.com/watch?v=8ZMPJSf5_GE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=32)
+- [Video 33 - jQuery V. Eliminando y reemplazando elementos. ](https://www.youtube.com/watch?v=2TqlvZkH1lE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=33)
+- [Video 34 - jQuery VI. Eliminando y reemplazando elementos II. ](https://www.youtube.com/watch?v=WLT1hAM9_Rc&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=34)
+- [Video 35 - jQuery VII. Cambiando atributos CSS I. ](https://www.youtube.com/watch?v=oivLtfCSKRc&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=35)
+- [Video 36 - jQuery VIII. Cambiando atributos CSS II. ](https://www.youtube.com/watch?v=TbFDJqJfPh0&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=36)
+- [Video 37 - ## Video 37 - jQuery IX. Leyendo y cambiando atributos CSS I. ](https://www.youtube.com/watch?v=EXd8wYFUJ0g&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=37)
+
 
 # Apuntes
 
@@ -353,7 +361,63 @@ suma(5,7);
 		- $(function() {código});
 	- **IMPORTANTE**: El código debe ir dentro del head pero **siempre después** del código CSS.
 
-## Video 30 - jQuery y el DOM.
+## Video 30 - jQuery II. El DOM.
+- **DOM**: Document Object Model (Modelos de Objetos del Documento).
+	- Cuando se cargue una página en el navegador, no interpreta solo las etiquetas, si no que crea y memoriza un modelo de esa web: etiquetas HTML, atributos y órden en el cual aparecen en el archivo (gerarquía). (DOM)
+- Seleccionando elementos con jQuery
+	- document.getElementById()
+	- document.getElementByTagName()
+	- Utilizando selectores CSS y su sintaxis:
+		- <p class="contacto">C/ Gran Vía 55</p>
+		- $(".contacto");
+		- <p id="contacto">C/ Gran Vía 55</p>
+		- $("#contacto);
+		- <p>C/ Gran Vía 55</p>
+		- $("p");
+
+## Video 31 - jQuery III. Diferencias con el DOM.
+- Características diferenciadoras
+	- Loops automáticos
+	- Funciones encadenadas
+
+## Video 32 - jQuery IV. Agregando contenido.
+- Añadir contenido usando funciones jQuery
+- Funciones
+	- .html()
+	- .text()
+	- .after()
+	- .append()
+	- .prepend()
+	- .before()
+
+## Video 33 - jQuery V. Eliminando y reemplazando contenido.
+- Funciones
+	- .remove(): elimina un contenido en la web.
+	- .replaceWith(): reemplaza un elemento por otro.
+
+## Video 34 - jQuery VI. Eliminando y reemplazando contenido II.
+- Terminando ejemplo del vídeo 33.
+- Función
+	- querySelectorAll: selecciona todos los elementos de una página web basándose en su etiqueta.
+- Cuando se produce un evento (click), se crea un objeto nuevo. Ese objeto es el del evento identificado con la letra "e" (tipo evento). Si en una función se pasa como parámetro este elemento, se está capturando la información.
+
+```javascript
+// Se le "dice" qué objeto desencadena el evento (target)
+if(e.target == imagen1){
+	// código
+}
+```
+
+## Video 35 - jQuery VII. Cambiando atributos CSS I.
+- Funciones
+	- **addClass()**: añade un estilo de clase.
+	- **removeClass()**: elimina un estilo de clase a una etiqueta o elemento web.
+	- **toggleClass()**: se puede cambiar de estilo o se utilizado como un "botón on/off".
+
+## Video 36 - jQuery VIII. Cambiando atributos CSS II.
+- Continuación del ejemplo anterior. Usando la función **toggleClass()**.
+
+## Video 37 - jQuery IX. Leyendo y cambiando atributos CSS I.
 
 # Notas
 	- Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.

@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+    <title>Video 31 - Chained Functions</title>
+    <style>
+		#anuncio {
+			background-color: #000000;
+			color: #FFF;
+			font-size: 24px;
+		}
+	
+	</style>
+    <!-- jQuery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script>
+		/* jQuery */
+		$(document).ready(function(){
+			$("#anuncio").width(500).height(500).text("¡Vende!").hide().fadeIn(5000);
+			
+			/* Se pueden poner funciones encadenas
+			línea a línea. */
+			/*
+			$("#anuncio").width(500)
+			.height(500)
+			.text("¡Vende!")
+			.hide()
+			.fadeIn(5000); */
+		});
+	
+	</script>
+
+
+</head>
+
+<body>
+	<div id="anuncio">
+		¡COMPRA!
+	</div>
+
+	<script>
+		/* Jasvascript */
+		/* var anuncio = document.getElementById("anuncio");
+		anuncio.style.width = "500px";
+		anuncio.style.height = "500px";
+		anuncio.innerHTML = "¡VENDE!"; */
+
+	</script>
+
+</body>
+
+</html>

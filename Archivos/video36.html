@@ -1,0 +1,108 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 36</title>
+	<style>
+		.linkdestacacursos {
+			color: #F00;
+			font-weight: bold;
+			margin-left: 25px;
+		}
+
+		.linkdestainformación {
+			color: rgb(0, 255, 115);
+			font-weight: bold;
+			margin-left: 25px;
+		}
+
+		a {
+			display: block;
+			margin-bottom: 20px;
+			font-size: 24px;
+		}
+
+		table {
+			text-align: center;
+			border: none;
+		}
+
+		td {
+			border: none;
+		}
+
+		#contieneEnlaces {
+			position: absolute;
+			left: 31px;
+			top: 65px;
+			width: 400px;
+			height: 649px;
+			z-index: 1;
+			padding-top: 100px;
+		}
+	</style>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			/* $("a[href^='http://']").addClass("linkdestacacursos"); */
+			document.getElementById("cursos").addEventListener("click", resaltaCursos, false);
+			document.getElementById("informacion").addEventListener("click", resaltaEjemplos, false);
+		});
+
+		function resaltaCursos(){
+			/* $(".cursos").addClass("linkdestacacursos");
+			$(".ejemplos").removeClass("linkdestacacursos"); */
+			$(".cursos").toggleClass("linkdestacacursos");
+		}
+
+		function resaltaEjemplos(){
+			/* $(".ejemplos").addClass("linkdestacacursos");
+			$(".cursos").removeClass("linkdestacacursos"); */
+			$(".ejemplos").toggleClass("linkdestainformación");
+		}
+	</script>
+
+
+</head>
+
+<body>
+
+	<div id="contieneEnlaces">
+
+		<a href="http://www.pildorasinformaticas.com" target="_blank" class="cursos">
+			Píldoras informáticas
+		</a><br>
+
+		<a href="http://www.google.com" target="_blank" class="ejemplos">
+			Google
+		</a><br>
+
+		<a href="https://www.youtube.com/user/pildorasinformaticas" target="_blank" class="cursos">
+			Píldoras informáticas YouTube
+		</a><br>
+
+		<a href="remover_reemplazar.html" target="_blank" class="ejemplos">
+			Remover y reemplazar
+		</a><br>
+
+		<a href="https://news.google.es/" target="_blank" >
+			Noticias google
+		</a><br>
+
+		<a href="calculadora_arcaica.html" target="_blank">
+			Calculadora
+		</a>
+	</div>
+
+	<table width="100%" border="1">
+		<tr>
+			<td>Cursos destacados&nbsp;&nbsp;<input type="checkbox" id="cursos"></td>
+			<td>Información adicional&nbsp;&nbsp;<input type="checkbox" id="informacion"></td>
+		</tr>
+	</table>
+
+</body>
+
+</html>
