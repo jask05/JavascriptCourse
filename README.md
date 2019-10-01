@@ -40,7 +40,7 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 34 - jQuery VI. Eliminando y reemplazando elementos II. ](https://www.youtube.com/watch?v=WLT1hAM9_Rc&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=34)
 - [Video 35 - jQuery VII. Cambiando atributos CSS I. ](https://www.youtube.com/watch?v=oivLtfCSKRc&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=35)
 - [Video 36 - jQuery VIII. Cambiando atributos CSS II. ](https://www.youtube.com/watch?v=TbFDJqJfPh0&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=36)
-- [Video 37 - ## Video 37 - jQuery IX. Leyendo y cambiando atributos CSS I. ](https://www.youtube.com/watch?v=EXd8wYFUJ0g&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=37)
+- [Video 37 - jQuery IX. Leyendo y cambiando atributos CSS I. ](https://www.youtube.com/watch?v=EXd8wYFUJ0g&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=37)
 
 
 # Apuntes
