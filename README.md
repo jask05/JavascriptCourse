@@ -41,6 +41,8 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 35 - jQuery VII. Cambiando atributos CSS I. ](https://www.youtube.com/watch?v=oivLtfCSKRc&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=35)
 - [Video 36 - jQuery VIII. Cambiando atributos CSS II. ](https://www.youtube.com/watch?v=TbFDJqJfPh0&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=36)
 - [Video 37 - jQuery IX. Leyendo y cambiando atributos CSS I. ](https://www.youtube.com/watch?v=EXd8wYFUJ0g&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=37)
+- [Video 38 - jQuery X. Leyendo y cambiando atributos CSS II. ](https://www.youtube.com/watch?v=ObTTy9numho&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=38)
+- [Video 39 - jQuery XI. Leyendo y cambiado atributos HTML I. ](https://www.youtube.com/watch?v=mxzdoJHh7Fk&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=39)
 
 
 # Apuntes
@@ -134,7 +136,7 @@ líneas */
 - Incremento y decremento:
 	- **+=**: incrementa en X el valor de una variable: **record+=10**
 	- **-=**: decrementa en X el valor de una variable: **record-=7**.
-	- ***=**: multiplica en X el valor de una variable: **record*=3**.
+	- **\*=**: multiplica en X el valor de una variable: **record*=3**.
 	- **/=**: divide en X el valor de una variable: **record/=3**.
 	- **++**: incrementa en **1** el valor de una variable: **record++**.
 	- **--**: decrementa en **1** el valor de una variable: **record--**.
@@ -354,26 +356,34 @@ suma(5,7);
 - Agregar librería
 	- Link: Microsoft/Jquery/Google.
 	- De manera local descargando la librearía.
-	- Estructura dentro del **head**:
-		- <script src="js/jquery-x.xx.x.js"></script>
-		- <script>$(document).ready(function(){código});</script>
 	- Forma reducida
 		- $(function() {código});
 	- **IMPORTANTE**: El código debe ir dentro del head pero **siempre después** del código CSS.
+	- Estructura dentro del **head**:
 
-## Video 30 - jQuery II. El DOM.
+```javascript
+<script src="js/jquery-x.xx.x.js"></script>
+<script>$(document).ready(function(){código});</script>
+```
+
+## Video 30 - jQuery II. El DOM.
+
 - **DOM**: Document Object Model (Modelos de Objetos del Documento).
 	- Cuando se cargue una página en el navegador, no interpreta solo las etiquetas, si no que crea y memoriza un modelo de esa web: etiquetas HTML, atributos y órden en el cual aparecen en el archivo (gerarquía). (DOM)
 - Seleccionando elementos con jQuery
 	- document.getElementById()
 	- document.getElementByTagName()
 	- Utilizando selectores CSS y su sintaxis:
-		- <p class="contacto">C/ Gran Vía 55</p>
-		- $(".contacto");
-		- <p id="contacto">C/ Gran Vía 55</p>
-		- $("#contacto);
-		- <p>C/ Gran Vía 55</p>
-		- $("p");
+```html		
+<p class="contacto">C/ Gran Vía 55</p>
+<p id="contacto">C/ Gran Vía 55</p>
+<p>C/ Gran Vía 55</p>
+```
+```javascript
+$(".contacto");
+$("#contacto");
+$("p");
+```
 
 ## Video 31 - jQuery III. Diferencias con el DOM.
 - Características diferenciadoras
@@ -418,7 +428,19 @@ if(e.target == imagen1){
 - Continuación del ejemplo anterior. Usando la función **toggleClass()**.
 
 ## Video 37 - jQuery IX. Leyendo y cambiando atributos CSS I.
+- Función
+	- **css()**: permite captura/guardar la propiedad CSS y modificarlo si se desea.
+```javascript
+.css("propiedad");
+.css("propiedad_css", valor);
+.css("propiedad_css": "valor", "propiedad_2_css":"valor2");
+```
+
+## Video 38 - jQuery X. Leyendo y cambiado atributos CSS II.
+- Continuando ejemplo vídeo anterior.
+
+## Video 39 - jQuery XI. Leyendo y cambiando atributos HTML I.
 
 # Notas
-	- Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
-	- **Prompt**: el segundo parámetro que se le pasa es el mensaje de ayuda que aparecería en el cuadro de texto (como un placeholder).
+- Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
+- **Prompt**: el segundo parámetro que se le pasa es el mensaje de ayuda que aparecería en el cuadro de texto (como un placeholder).
