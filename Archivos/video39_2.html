@@ -1,0 +1,77 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Video 39</title>
+   
+	<style>
+
+		table{
+			text-align:center;
+			width:50%;
+			border:none;
+			margin:auto;
+		}
+		
+		img{
+			padding:0 5px;
+		}
+		h1{
+			text-align:center;
+		}
+		
+	</style>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+       $(document).ready(function(){
+		  var images = document.querySelectorAll("img");
+		  for(var i=0; i<images.length;i++){
+			  images[i].addEventListener("mouseover", cambiar, false);
+			  images[i].addEventListener("mouseout", restaurar, false);
+		  }
+	   });
+
+		function cambiar(e){
+			if(e.target == img1){
+				$("#img1").attr("src", "https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/sign_forbidden.png");
+			}else if(e.target == img2){
+				$("#img2").attr("src", "https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/sign_forbidden.png");
+			}else if(e.target == img3){
+				$("#img3").attr("src", "https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/sign_forbidden.png");
+			}else if(e.target == img4){
+				$("#img4").attr("src", "https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/256x256/sign_forbidden.png");
+			}
+		}
+
+		function restaurar(e){
+			if(e.target == img1){
+				$("#img1").attr("src", "https://www.imagenesanime.net/Imagenes/anime-one-piece.jpg");
+			}else if(e.target == img2){
+				$("#img2").attr("src", "https://www.imagenesanime.net/Imagenes/foto-de-one-piece.jpg");
+			}else if(e.target == img3){
+				$("#img3").attr("src", "https://www.imagenesanime.net/Imagenes/luffy-sombrero-de-paja.jpg");
+			}else if(e.target == img4){
+				$("#img4").attr("src", "https://www.imagenesanime.net/Imagenes/dibujo-de-one-piece.jpg");
+			}
+		}
+    </script>
+
+
+</head>
+
+<body>
+
+	<h1>Galería de imágenes</h1>
+	<table width="100%" border="0">
+		<tr>
+			<td><img src="https://www.imagenesanime.net/Imagenes/anime-one-piece.jpg" alt="" width="200px" height="150px" id="img1"></td>
+			<td><img src="https://www.imagenesanime.net/Imagenes/foto-de-one-piece.jpg" alt="" width="200px" height="150px" id="img2"></td>
+			<td><img src="https://www.imagenesanime.net/Imagenes/luffy-sombrero-de-paja.jpg" width="200px" height="150px" id="img3"-promocional-de-one-piece.jpg" alt=""></td>
+			<td><img src="https://www.imagenesanime.net/Imagenes/dibujo-de-one-piece.jpg" alt="" width="200px" height="150px" id="img4"></td>
+		</tr>
+	</table>
+
+</body>
+
+</html>

@@ -43,6 +43,8 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 37 - jQuery IX. Leyendo y cambiando atributos CSS I. ](https://www.youtube.com/watch?v=EXd8wYFUJ0g&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=37)
 - [Video 38 - jQuery X. Leyendo y cambiando atributos CSS II. ](https://www.youtube.com/watch?v=ObTTy9numho&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=38)
 - [Video 39 - jQuery XI. Leyendo y cambiado atributos HTML I. ](https://www.youtube.com/watch?v=mxzdoJHh7Fk&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=39)
+- [Video 40 - jQuery XII. Leyendo y cambiado atributos HTML II. ](https://www.youtube.com/watch?v=gPmTCk7fRkQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=40)
+- [Video 41 - jQuery XIII. Función each y funciones anónimas. ](https://www.youtube.com/watch?v=bTdyCMhUVfc&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=41)
 
 
 # Apuntes
@@ -440,6 +442,14 @@ if(e.target == imagen1){
 - Continuando ejemplo vídeo anterior.
 
 ## Video 39 - jQuery XI. Leyendo y cambiando atributos HTML I.
+- Funciones
+	- attr("atributo", "valor")
+	- removeAttr("atributo")
+
+## Video 40 - jQuery XII. Leyendo y cambiando atributos HTML II.
+- Viendo función removeAttr("atributo")
+
+## Video 41 - Función each() y funciones anónimas.
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.

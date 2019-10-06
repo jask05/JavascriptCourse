@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Video 39</title>
+   
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+       $(document).ready(function(){
+		   document.getElementById("img1").addEventListener("mouseover", cambiar, false);
+		   document.getElementById("img1").addEventListener("mouseout", restaurar, false);
+	   });
+
+	   function cambiar(){
+		   $("#img1").attr("src", "https://media.redadn.es/imagenes/animanga-5_327951.jpg");
+	   }
+
+	   function restaurar(){
+		   $("#img1").attr("src", "https://images-na.ssl-images-amazon.com/images/I/41LRENtFJxL._SY450_.jpg");
+	   }
+    </script>
+
+
+</head>
+
+<body>
+
+	<!-- https://media.redadn.es/imagenes/animanga-5_327951.jpg -->
+	<img src="https://images-na.ssl-images-amazon.com/images/I/41LRENtFJxL._SY450_.jpg" id="img1" height="150px" alt="imagen">
+
+</body>
+
+</html>
