@@ -45,6 +45,9 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 39 - jQuery XI. Leyendo y cambiado atributos HTML I. ](https://www.youtube.com/watch?v=mxzdoJHh7Fk&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=39)
 - [Video 40 - jQuery XII. Leyendo y cambiado atributos HTML II. ](https://www.youtube.com/watch?v=gPmTCk7fRkQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=40)
 - [Video 41 - jQuery XIII. Función each y funciones anónimas. ](https://www.youtube.com/watch?v=bTdyCMhUVfc&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=41)
+- [Video 42 - jQuery XIV. Eventos con jQuery. ](https://www.youtube.com/watch?v=B4cBilORGWk&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=42)
+- [Video 43 - jQuery XV. Eventos con jQuery II - hover() ](https://www.youtube.com/watch?v=bBJhs6On7Gk&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=43)
+- [Video 44 - jQuery XVI. Eventos con jQuery III - toggle() ](https://www.youtube.com/watch?v=3Os5WvtvEzE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=44)
 
 
 # Apuntes
@@ -450,6 +453,73 @@ if(e.target == imagen1){
 - Viendo función removeAttr("atributo")
 
 ## Video 41 - Función each() y funciones anónimas.
+- Funciones
+	- **each()**: "cada". Se podría aplicar una función a todas las imágenes de una página de varias formas diferentes. Se genera un "bucle" por cada elemento.
+		- **$(this)**: "este/esta". Aplica X funciones al objeto que se está iterando.
+	- Anónimas **function()**
+		- Actúa como una función normal pero sin nombre. 
+		- No se las puede "invocar".
+		- Se ejecutan en cuanto aparece el código.
+		- Se suelen usar como argumentos de otras funciones.
+	- **¿Por qué no usar siempre la nomenclatura del punto (primera opción)?** Hay veces que no queda más remedio que ejecutar la función anónima, sobre todo cuando se quiere aplicar varias tareas a un mismo objeto, o cuando estas tareas implica la definición de variables, bucles, condicionales, etc. Si es una tarea sensilla si se recomienda utilizar la primera opción (notación del punto).
+
+```javascript
+// Primera forma
+$("img").fadeOut("1000").fadeIn("1000").width("120");
+
+// Each
+// "Por cada imagen que hay en la página web
+// se va a ejecutar la siguiente función"
+$("img").each(function(){
+	$(this).fadeOut(1000).fadeIn(1000).width("120");
+});
+```
+
+## Video 42 - Eventos en jQuery I.
+- **¿Qué son?** Desencadenantes de una acción.
+- **Eventos de ratón**
+	- click
+	- dbclick
+	- mousedown
+	- mouseup
+	- mouseover
+	- mouseout
+	- mousemove
+- **Eventos de teclado**
+	- keypress
+	- keydown
+- **Eventos de documento o ventana**
+	- load
+	- resize
+	- scroll
+	- unload
+- **Eventos de formulario**
+	- submit
+	- reset
+	- change
+	- focus
+	- blur
+- **Gestión de eventos**
+	- $("img").click(función a ejecutar);
+	- Varias formas de realizarlo
+```javascript
+// Onclick
+$("img").click(aviso);
+function aviso(){ 
+	alert("Has pulsado una imagen");
+}
+
+// Funciones anónimas
+$("img").click(function(){
+	alert("Has pulsado una imagen");
+});
+```
+
+## Video 43 - Eventos en jQuery II. Funciones hover() y toggle()
+- Explicación de la función hover().
+
+## Video 44 - Eventos en jQuery III. Funciones toggle()
+- Explicación de la función toggle().
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.

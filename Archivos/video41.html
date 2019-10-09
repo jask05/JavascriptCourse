@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 41</title>
+
+	<style>
+		table {
+			text-align: center;
+			width: 50%;
+			border: none;
+			margin: auto;
+		}
+
+		img {
+			padding: 0 5px;
+		}
+
+		h1 {
+			text-align: center;
+		}
+	</style>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			document.getElementById("miboton").addEventListener("click", cambiar, false);
+		});
+
+		function cambiar(){
+			// Funciones encadenadas
+			// $("img").fadeOut(1000).fadeIn(1000).height("80");
+			$("img").each(function(){
+				$(this).fadeOut(1000).fadeIn(1000).width(300);
+			});
+		}
+	</script>
+
+
+</head>
+
+<body>
+	<h1>Galería de imágenes</h1>
+	<table width="100%" border="0">
+		<tr>
+			<td><img src="https://www.imagenesanime.net/Imagenes/anime-one-piece.jpg" alt="" width="200px"
+					height="150px" id="img1"></td>
+			<td><img src="https://www.imagenesanime.net/Imagenes/foto-de-one-piece.jpg" alt="" width="200px"
+					height="150px" id="img2"></td>
+			<td><img src="https://www.imagenesanime.net/Imagenes/luffy-sombrero-de-paja.jpg" width="200px"
+					height="150px" id="img3" -promocional-de-one-piece.jpg" alt=""></td>
+			<td><img src="https://www.imagenesanime.net/Imagenes/dibujo-de-one-piece.jpg" alt="" width="200px"
+					height="150px" id="img4"></td>
+		</tr>
+	</table>
+	<div id="boton">
+		<input type="button" value="Acción" id="miboton">
+	</div>
+</body>
+
+</html>
