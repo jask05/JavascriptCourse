@@ -520,6 +520,7 @@ $("img").click(function(){
 
 ## Video 44 - Eventos en jQuery III. Funciones toggle()
 - Explicación de la función toggle().
+- Toggle() no funciona como antes, tener en cuenta [ ejemplos ](https://api.jquery.com/toggle/).
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
