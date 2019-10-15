@@ -48,6 +48,9 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 42 - jQuery XIV. Eventos con jQuery. ](https://www.youtube.com/watch?v=B4cBilORGWk&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=42)
 - [Video 43 - jQuery XV. Eventos con jQuery II - hover() ](https://www.youtube.com/watch?v=bBJhs6On7Gk&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=43)
 - [Video 44 - jQuery XVI. Eventos con jQuery III - toggle() ](https://www.youtube.com/watch?v=3Os5WvtvEzE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=44)
+- [Video 45 - jQuery XVII. Eventos con jQuery IV - next() ](https://www.youtube.com/watch?v=UpCbfxOfm3Q&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=45)
+- [Video 46 - jQuery XVIII. Eventos con jQuery V - bind() ](https://www.youtube.com/watch?v=xwM89X_NWqE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=46)
+- [Video 47 - jQuery XIX. Efectos y animaciones. ](https://www.youtube.com/watch?v=6BkKiiuTxo8&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=47)
 
 
 # Apuntes
@@ -521,6 +524,35 @@ $("img").click(function(){
 ## Video 44 - Eventos en jQuery III. Funciones toggle()
 - Explicación de la función toggle().
 - Toggle() no funciona como antes, tener en cuenta [ ejemplos ](https://api.jquery.com/toggle/).
+
+## Video 45 - Eventos con jQuery IV - next()
+- Explicación de la función next().
+- next() hace referencia al siguiente elemento al cual se está "apuntando".
+
+## Video 46 - Eventos con jQuery V - bind()
+- Permite pasar un segundo argumento como datos adicionales para enviarle a la función, y luego asignarle que función ejecutar.
+- Se puede utilizar dos o más eventos a la vez en una misma llamada, separados por un espacio.
+- **Objeto**: JS considera a todo como un objeto. El objeto evento tiene propiedades y métodos. Cuando se hace click en una imagen se genera el objeto **evento click**. Tiene propiedades y métodos.
+	- **Propiedades**
+		- target
+		- clientX
+		- clientY
+		- data
+	- **Métodos**
+		- stopPropagation: cuando se hace click en un objeto (web, imagen, enlace, etc.), se le dice que el evento no se propague a otros objetos que contengan en el que se está (una img está dentro de un documento, por ej.).
+		- preventDefault
+
+```javascript
+// Funciones "normales"
+$("#eleme1").click(abrir);
+$("#eleme1").mouseover(abrir);
+
+// Funciones con bind
+$("#eleme1").bind("click", datos, abrir);
+$("#eleme1").bind("click mouseover", datos, abrir);
+```
+
+## Video 47 - Efectos y animaciones I.
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
