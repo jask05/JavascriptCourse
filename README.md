@@ -51,6 +51,7 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 45 - jQuery XVII. Eventos con jQuery IV - next() ](https://www.youtube.com/watch?v=UpCbfxOfm3Q&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=45)
 - [Video 46 - jQuery XVIII. Eventos con jQuery V - bind() ](https://www.youtube.com/watch?v=xwM89X_NWqE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=46)
 - [Video 47 - jQuery XIX. Efectos y animaciones. ](https://www.youtube.com/watch?v=6BkKiiuTxo8&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=47)
+- [Video 48 - jQuery XIX. Efectos y animaciones II. ](https://www.youtube.com/watch?v=YgXFM-617SU&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=48)
 
 
 # Apuntes
@@ -553,6 +554,22 @@ $("#eleme1").bind("click mouseover", datos, abrir);
 ```
 
 ## Video 47 - Efectos y animaciones I.
+- Funciones
+	- Mostrar/ocultar
+		- show()
+		- hide()
+		- toggle()
+	- Aparecer / desvancer
+		- fadeIn()
+		- fadeOut()
+		- fadeToggle()
+		- fadeTo()
+	- Deslizar
+		- slideDown()
+		- slideUp()
+		- slideToggle()
+
+## Video 48 - Efectos y animaciones II.
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
