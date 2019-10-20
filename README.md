@@ -51,7 +51,8 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 45 - jQuery XVII. Eventos con jQuery IV - next() ](https://www.youtube.com/watch?v=UpCbfxOfm3Q&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=45)
 - [Video 46 - jQuery XVIII. Eventos con jQuery V - bind() ](https://www.youtube.com/watch?v=xwM89X_NWqE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=46)
 - [Video 47 - jQuery XIX. Efectos y animaciones. ](https://www.youtube.com/watch?v=6BkKiiuTxo8&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=47)
-- [Video 48 - jQuery XIX. Efectos y animaciones II. ](https://www.youtube.com/watch?v=YgXFM-617SU&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=48)
+- [Video 48 - jQuery XX. Efectos y animaciones II. ](https://www.youtube.com/watch?v=YgXFM-617SU&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=48)
+- [Video 49 - jQuery XXI. Animate y funciones anidadas. ](https://www.youtube.com/watch?v=wQDF6kLleUI&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=49)
 
 
 # Apuntes
@@ -570,6 +571,14 @@ $("#eleme1").bind("click mouseover", datos, abrir);
 		- slideToggle()
 
 ## Video 48 - Efectos y animaciones II.
+- Funciones
+	- Animate(): permite animar cualquier propiedad CSS que admita valores numéricos.
+		- **margin-left**: marginLeft
+		- width
+		- height
+		- opacity
+
+## Video 49 - Animate y funciones anidadas
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
