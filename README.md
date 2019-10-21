@@ -53,6 +53,8 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 47 - jQuery XIX. Efectos y animaciones. ](https://www.youtube.com/watch?v=6BkKiiuTxo8&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=47)
 - [Video 48 - jQuery XX. Efectos y animaciones II. ](https://www.youtube.com/watch?v=YgXFM-617SU&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=48)
 - [Video 49 - jQuery XXI. Animate y funciones anidadas. ](https://www.youtube.com/watch?v=wQDF6kLleUI&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=49)
+- [Video 50 - jQuery XXII. Plugins jQuery. ](https://www.youtube.com/watch?v=EVXFK6QYCkg&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=50)
+- [Video 51 - jQuery XXIII. Preloader de imágenes en rollover. ](https://www.youtube.com/watch?v=z8J5_WVBtYQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=51)
 
 
 # Apuntes
@@ -578,7 +580,14 @@ $("#eleme1").bind("click mouseover", datos, abrir);
 		- height
 		- opacity
 
-## Video 49 - Animate y funciones anidadas
+## Video 49 - Animate y funciones anidadas.
+- Función anónima utilizada para que realice una acción al terminar la función animate.
+
+## Video 50 - Plugins jQuery.
+- Librearía usada **easing**.
+- Se puee utilizar la función "stop" para que no se repita el proceso si se ha realizado muchos "hover".
+
+## Video 51 - Preloader de imágenes rollover.
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
