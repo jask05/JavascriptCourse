@@ -55,6 +55,8 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 49 - jQuery XXI. Animate y funciones anidadas. ](https://www.youtube.com/watch?v=wQDF6kLleUI&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=49)
 - [Video 50 - jQuery XXII. Plugins jQuery. ](https://www.youtube.com/watch?v=EVXFK6QYCkg&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=50)
 - [Video 51 - jQuery XXIII. Preloader de imágenes en rollover. ](https://www.youtube.com/watch?v=z8J5_WVBtYQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=51)
+- [Video 52 - jQuery XXIV. Imágenes con Fancybox. ](https://www.youtube.com/watch?v=nZTM9ZLHe5E&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=52)
+- [Video 53 - Ventanas emergentes e iframes I. ](https://www.youtube.com/watch?v=Yp0R0Xj1Woo&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=53)
 
 
 # Apuntes
@@ -588,6 +590,22 @@ $("#eleme1").bind("click mouseover", datos, abrir);
 - Se puee utilizar la función "stop" para que no se repita el proceso si se ha realizado muchos "hover".
 
 ## Video 51 - Preloader de imágenes rollover.
+- Preloader: no muestra la imagen original hasta que las imágenes estén cargadas (en la caché del navegador).
+- Depende de varios factores que, al pedir la segunda imagen, no se cargue o se cargue de manera lenta. 
+- El preloader se basa en que antes de la línea de sustitución crear una variable de tipo **image**.
+
+```javascript
+// Variable de tipo image.
+// De esta forma se cargá en la variable la ruta y antes de que se ejecute
+// la imagen ya se habrá cargado/enviado por lo que se podrá mostrar.
+var foto_nueva = new Image();
+foto_nueva.src = "images/foto.jpg";
+```
+
+## Video 52 - Imágenes con FancyBox
+- Instalación de librearía y prueba con galería de imágenes.
+
+## Video 53 - Ventanas emergentes e iframes I.
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.

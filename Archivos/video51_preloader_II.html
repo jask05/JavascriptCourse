@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 51 - Preloader II</title>
+	<style>
+		table {
+			text-align: center;
+			width: 50%;
+			border: none;
+			margin: auto;
+		}
+
+		img {
+			padding: 0 5px;
+		}
+
+		h1 {
+			text-align: center;
+		}
+	</style>
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<script>
+
+		$(document).ready(function () {
+			
+			var foto_hover = ["imgs/arbol.jpg",
+							  "imgs/arbol.jpg",
+							  "imgs/arbol.jpg",
+							  "imgs/arbol.jpg"
+							];
+
+			var imagenes = [];
+			
+			for(var i=0; i<foto_hover.length;i++){
+				imagenes[i] = new Image();
+				imagenes[i].src = foto_hover[i];
+			}
+
+			$("img").each(function () {
+				$(this).hover(cambiar, restaurar);
+			});
+
+			function cambiar(e) {
+				if(e.target == img1){
+					$("#img1").attr("src", imagenes[0].src);
+				}else if(e.target == img2){
+					$("#img2").attr("src", imagenes[1].src);
+				}else if(e.target == img3){
+					$("#img3").attr("src", imagenes[2].src);
+				}else if(e.target == img4){
+					$("#img4").attr("src", imagenes[3].src);
+				}
+			}
+
+			function restaurar(e) {
+				if(e.target == img1){
+					$("#img1").attr("src", "imgs/arbol_opaco.jpg");
+				}else if(e.target == img2){
+					$("#img2").attr("src", "imgs/arbol_opaco.jpg");
+				}else if(e.target == img3){
+					$("#img3").attr("src", "imgs/arbol_opaco.jpg");
+				}else if(e.target == img4){
+					$("#img4").attr("src", "imgs/arbol_opaco.jpg");
+				}
+			}
+		});
+	</script>
+</head>
+
+<body>
+	<h1>Galería de imágenes</h1>
+	<table width="100%" border="0">
+		<tr>
+			<td><img src="imgs/arbol_opaco.jpg" width="200" id="img1"></td>
+			<td><img src="imgs/arbol_opaco.jpg" width="200" id="img2"></td>
+			<td><img src="imgs/arbol_opaco.jpg" width="200" id="img3"></td>
+			<td><img src="imgs/arbol_opaco.jpg" width="200" id="img4"></td>
+		</tr>
+	</table>
+</body>
+
+</html>

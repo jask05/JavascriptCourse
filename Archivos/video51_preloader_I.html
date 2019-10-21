@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 51 - Preloader I</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script>
+
+		// Nos aseguramos que nada del script se cargará antes que el HTML.
+		$(document).ready(function () {
+
+			var foto_nueva = new Image();
+
+			foto_nueva.src = "imgs/arbol.jpg";
+
+			$("#foto").hover(function () {
+				// Cuando el navegador llega a esta línea, ya tiene cargada la img de sutitución.
+				$(this).attr("src", foto_nueva.src);
+			},function () {
+				$(this).attr("src", "imgs/arbol_opaco.jpg");
+			});
+		});
+	</script>
+</head>
+
+<body>
+
+	<img src="imgs/arbol_opaco.jpg" width="300" height="200" id="foto">
+</body>
+
+</html>
