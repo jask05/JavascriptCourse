@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 54</title>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script>
+	
+		$(document).ready(function(){
+			var propiedadesVentana = "width=300, height=200, left=300, top=300, scrollbars=no, toolbars=no";
+			var miVentana = open("https://www.google.es", "Google", propiedadesVentana);	
+
+			$("#botonCerrar").click(function(e){
+				e.preventDefault();
+				miVentana.close();
+			});
+			
+		});
+	</script>
+</head>
+
+<body>
+	<a href="http://www.pildorasinformaticas.es">Ir a Píldoras</a>
+	<br><br><br>
+	<a href="" id="botonCerrar">Cerrar</a>
+</body>
+
+</html>

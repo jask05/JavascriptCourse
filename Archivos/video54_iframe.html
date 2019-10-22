@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 54 - Iframe</title>
+	<style type="text/css">
+		body {
+			background-color: #06C;
+		}
+
+		h1 {
+			text-align: center;
+			color: #FFF;
+			font-weight: bold;
+		}
+
+		#contenedor {
+			background-color: #FFF;
+			width: 500px;
+			height: 400px;
+			margin: auto;
+		}
+
+		a{
+			font-size: 24px;
+			color: white;
+			text-decoration: none;
+		}
+	</style>
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<script>
+		$(document).ready(function(e){
+			$("#pulsar").click(function(e){
+				e.preventDefault();
+				$("#externo").attr("src", "https://www.marca.com");
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<h1> Píldoras informáticas</h1>
+	<a href="" id="pulsar">Pulsa</a>
+	<div id="contenedor"><iframe src="" width="500" height="400" id="externo" frameborder="0"></iframe></div>
+
+</body>
+
+</html>

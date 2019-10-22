@@ -57,6 +57,8 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 51 - jQuery XXIII. Preloader de imágenes en rollover. ](https://www.youtube.com/watch?v=z8J5_WVBtYQ&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=51)
 - [Video 52 - jQuery XXIV. Imágenes con Fancybox. ](https://www.youtube.com/watch?v=nZTM9ZLHe5E&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=52)
 - [Video 53 - Ventanas emergentes e iframes I. ](https://www.youtube.com/watch?v=Yp0R0Xj1Woo&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=53)
+- [Video 54 - Ventanas emergentes e iframes II. ](https://www.youtube.com/watch?v=XP7Gc9kXmVM&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=54)
+- [Video 55 - Ventanas emergentes e iframes III. ](https://www.youtube.com/watch?v=XlmOiACfzL8&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=55)
 
 
 # Apuntes
@@ -606,6 +608,13 @@ foto_nueva.src = "images/foto.jpg";
 - Instalación de librearía y prueba con galería de imágenes.
 
 ## Video 53 - Ventanas emergentes e iframes I.
+- Para quitar el comportamiento normal del link se puede utilizar **e.preventDefault();** o **return false;**.
+- **open()** se utiliza para abrir ventanas emergentes.
+
+## Video 54 - Ventanas emergentes e iframes II.
+- Cargando iFrames dentro del navegador.
+
+## Video 55 - Ventanas emergentes e iframes III.
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
