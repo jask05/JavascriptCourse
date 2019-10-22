@@ -59,6 +59,8 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 53 - Ventanas emergentes e iframes I. ](https://www.youtube.com/watch?v=Yp0R0Xj1Woo&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=53)
 - [Video 54 - Ventanas emergentes e iframes II. ](https://www.youtube.com/watch?v=XP7Gc9kXmVM&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=54)
 - [Video 55 - Ventanas emergentes e iframes III. ](https://www.youtube.com/watch?v=XlmOiACfzL8&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=55)
+- [Video 56 - Menús animados. ](https://www.youtube.com/watch?v=0JwWCJpP890&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=56)
+- [Video 57 - Formularios I. ](https://www.youtube.com/watch?v=LyaU7aktI7s&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=57)
 
 
 # Apuntes
@@ -615,6 +617,13 @@ foto_nueva.src = "images/foto.jpg";
 - Cargando iFrames dentro del navegador.
 
 ## Video 55 - Ventanas emergentes e iframes III.
+- Iframe con Fancybox
+
+## Video 56 - Menús animados
+- Utilizando librearías externas
+
+## Video 57 - Formularios I.
+
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
