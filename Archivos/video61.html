@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Video 61</title>
+	<style>
+		body {
+			background-color: #FFC;
+		}
+
+		#principal {
+
+			padding: 10px 10px 10px 50px;
+			background-color: #F93;
+			box-shadow: 10px 10px 5px 0px #999999;
+			border-radius: 10px;
+		}
+
+		td {
+			padding-bottom: 25px;
+		}
+
+		h1 {
+			text-align: center;
+		}
+	</style>
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<script>
+
+		$(document).ready(function () {
+			$("#paypal").click(function(){
+				$("#email").attr("disabled", false).focus();
+				$("#tarjeta").attr("disabled", true).val("");
+				$("#fecha_tarjeta").attr("disabled", true).val("");
+			});
+
+			$("#visa").click(function(){
+				$("#tarjeta").attr("disabled", false).focus();
+				$("#fecha_tarjeta").attr("disabled", false);
+				$("#email").attr("disabled", true).val("");
+			});
+
+			$("#master").click(function(){
+				$("#tarjeta").attr("disabled", false).focus();
+				$("#fecha_tarjeta").attr("disabled", false);
+				$("#email").attr("disabled", true).val("");
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<h1>Envío de datos</h1>
+	<div id="contenedor">
+		<form id="form_datos">
+			<table width="25%" border="0" align="center" id="principal">
+				<tr>
+					<td>Nombre:</td>
+					<td><label for="nombre"></label>
+						<input type="text" name="nombre" id="nombre" value="Obligatorio nombre"></td>
+				</tr>
+				<tr>
+					<td>Dirección:</td>
+					<td><input type="text" name="direccion" id="direccion"></td>
+				</tr>
+				<tr>
+					<td>Ciudad:</td>
+					<td><input type="text" name="ciudad" id="ciudad"></td>
+				</tr>
+				<tr>
+					<td>Código Postal</td>
+					<td><label for="c_postal"></label>
+						<input type="text" name="c_postal" id="c_postal"></td>
+				</tr>
+				<tr>
+					<td>Método pago:</td>
+					<td>
+						<p>
+							<input type="radio" name="radio" id="paypal" value="paypal">
+							<label for="paypal">PayPal</label>
+						</p>
+						<p>
+							<input type="radio" name="radio" id="master" value="master">
+							<label for="master">MasterCard</label>
+						</p>
+						<p>
+							<input type="radio" name="radio" id="visa" value="visa">
+							<label for="visa">Visa</label>
+							<br>
+						</p>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>Datos pago</td>
+					<td>
+						<table width="200">
+							<tr>
+								<td><label for="tarjeta" id="n_tarjeta">Nº tarjeta</label></td>
+								<td>
+									<input type="text" name="tarjeta" id="tarjeta" disabled></td>
+							</tr>
+							<tr>
+								<td align="left"><label for="fecha_tarjeta" id="f_tarjeta">Fecha Expiración</label></td>
+								<td>
+									<input type="text" name="fecha_tarjeta" id="fecha_tarjeta" disabled></td>
+							</tr>
+							<tr>
+								<td><label for="email" id="e_mail">Email</label></td>
+								<td>
+									<input type="text" name="email" id="email" disabled></td>
+							</tr>
+
+
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>País:</p>
+					</td>
+					<td>
+						<p>
+							<label for="pais"></label>
+							<select name="pais" id="pais">
+								<option>España</option>
+								<option>México</option>
+								<option>Colombia</option>
+								<option>Perú</option>
+								<option>Chile</option>
+								<option>Argentina</option>
+							</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><input type="submit" value="Enviar" id="comprobar"></td>
+
+				</tr>
+			</table>
+		</form>
+	</div>
+
+	<div id="las_aficiones"></div>
+</body>
+
+</html>

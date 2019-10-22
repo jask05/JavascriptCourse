@@ -61,7 +61,11 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 55 - Ventanas emergentes e iframes III. ](https://www.youtube.com/watch?v=XlmOiACfzL8&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=55)
 - [Video 56 - Menús animados. ](https://www.youtube.com/watch?v=0JwWCJpP890&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=56)
 - [Video 57 - Formularios I. ](https://www.youtube.com/watch?v=LyaU7aktI7s&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=57)
-
+- [Video 58 - Formularios II. Eventos I. ](https://www.youtube.com/watch?v=nMHVyGxcA6U&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=58)
+- [Video 59 - Formularios III. Eventos II. ](https://www.youtube.com/watch?v=zTa6-MxNo8M&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=59)
+- [Video 60 - Formularios IV. Eventos III. ](https://www.youtube.com/watch?v=6l40OQk2brg&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=60)
+- [Video 61 - Formularios V. Mostrando y ocultando elementos. ](https://www.youtube.com/watch?v=HTiXrd4fbgo&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=61)
+- [Video 62 - Formularios VI. Mostrando y ocultando elementos II. ](https://www.youtube.com/watch?v=PJAg8537jCA&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=62)
 
 # Apuntes
 
@@ -623,7 +627,29 @@ foto_nueva.src = "images/foto.jpg";
 - Utilizando librearías externas
 
 ## Video 57 - Formularios I.
+- Trabajo con formularios.
+- En vez de crear variables, una por cada elemento, se puede utilizar **$(":text")** (es el **type**) del formulario.
+- Para acceder a los inputs del formulario se utiliza **$(":input")**.
 
+## Video 58 - Formularios II. Eventos I
+- Eventos
+	- Al enviar: **submit()**
+	- Al coger el foco (seleccionado): **focus()**
+	- Al perder el foco (deseleccionar): **blur()**
+	- Al escribir
+	- Al pasar el ratón por encima
+	- Etc.
+
+## Video 59 - Formularios III. Eventos II
+- Se continúa avanzando con la práctica del vídeo 58, utilizando el evento **focus()**.
+
+## Video 60 - Formularios IV. Eventos III.
+- Utilización de eventos onClick y change en formularios.
+
+## Video 61 - Formularios V. Mostrando y ocultando elementos.
+- Activando y desactivando campos "disabled" en función del radiobutton que se seleccione.
+
+## Video 61 - Formularios VI.  Mostrando y ocultando elementos II.
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
