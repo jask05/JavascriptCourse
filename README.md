@@ -66,6 +66,8 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 60 - Formularios IV. Eventos III. ](https://www.youtube.com/watch?v=6l40OQk2brg&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=60)
 - [Video 61 - Formularios V. Mostrando y ocultando elementos. ](https://www.youtube.com/watch?v=HTiXrd4fbgo&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=61)
 - [Video 62 - Formularios VI. Mostrando y ocultando elementos II. ](https://www.youtube.com/watch?v=PJAg8537jCA&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=62)
+- [Video 63 - Formularios VII - Validación I. ](https://www.youtube.com/watch?v=g2NFST7GzTw&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=63)
+- [Video 65 - Formularios VIII - Validación II. ](https://www.youtube.com/watch?v=rOp9loIPhCs&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=64)
 
 # Apuntes
 
@@ -646,10 +648,16 @@ foto_nueva.src = "images/foto.jpg";
 ## Video 60 - Formularios IV. Eventos III.
 - Utilización de eventos onClick y change en formularios.
 
-## Video 61 - Formularios V. Mostrando y ocultando elementos.
+## Video 61 - Formularios V. Mostrando y ocultando elementos I.
 - Activando y desactivando campos "disabled" en función del radiobutton que se seleccione.
 
-## Video 61 - Formularios VI.  Mostrando y ocultando elementos II.
+## Video 62 - Formularios VI. Mostrando y ocultando elementos II.
+- Mostrando y ocultando elementos con la propiedad **visibility** de CSS.
+
+## Video 63 - Formularios VII - Validación I.
+- Validación de varios campos: nombres, email, edad, etc.
+
+## Video 64 - Formularios VIII - Validación II.
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
