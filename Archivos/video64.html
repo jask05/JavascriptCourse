@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Video 63</title>
+	<title>Video 64</title>
 	<style>
 		body {
 			background-color: #FFC;
@@ -43,9 +43,19 @@
 					nombre: "required",
 					apellido: "required",
 					f_nacimiento: {date: true, required: true },
-					edad: "number",
+					edad: {number: true, range: [1-105]},
 					mail: "email",
 					p_web: "url"
+				},
+
+				messages: {
+					nombre: "Obligatorio",
+					apellido: "Obligatorio",
+					f_nacimiento: {required: "Obligatorio", date: "Formato no válido"},
+					edad: {
+						number: "Debe ser numérico.",
+						range: "Entre 1 y 105"
+					}
 				}
 			});
 		});
@@ -60,11 +70,11 @@
 				<tr>
 					<td>Nombre:</td>
 					<td><label for="nombre"></label>
-						<input type="text" name="nombre" id="nombre" title="Obligatorio"></td>
+						<input type="text" name="nombre" id="nombre"></td>
 				</tr>
 				<tr>
 					<td>Apellidos:</td>
-					<td><input type="text" name="apellido" id="apellido" title="Obligatorio"></td>
+					<td><input type="text" name="apellido" id="apellido"></td>
 				</tr>
 				<tr>
 					<td>Fecha Nacimiento</td>
