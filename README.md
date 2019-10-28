@@ -68,7 +68,14 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 62 - Formularios VI. Mostrando y ocultando elementos II. ](https://www.youtube.com/watch?v=PJAg8537jCA&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=62)
 - [Video 63 - Formularios VII - Validación I. ](https://www.youtube.com/watch?v=g2NFST7GzTw&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=63)
 - [Video 64 - Formularios VIII - Validación II. ](https://www.youtube.com/watch?v=rOp9loIPhCs&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=64)
-- [Video 65 - Formularios VIX - Validación III. ](https://www.youtube.com/watch?v=zZA8xMnd47g&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=65)
+- [Video 65 - Formularios IX - Validación III. ](https://www.youtube.com/watch?v=zZA8xMnd47g&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=65)
+- [Video 66 - Formularios X - Validación IV. ](https://www.youtube.com/watch?v=On_Eptv3Wc4&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=66)
+- [Video 67 - Formularios XI - Validación V. ](https://www.youtube.com/watch?v=QE_jUFpJXdA&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=67)
+- [Video 68 - Ajax I. ](https://www.youtube.com/watch?v=7w5PpdHKndc&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=68)
+- [Video 69 - Ajax II. ](https://www.youtube.com/watch?v=34Vb5ggTpXc&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=69)
+- [Video 70 - Ajax III. Get() y Post() I ](https://www.youtube.com/watch?v=E7k6PjC71_Y&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=70)
+- [Video 71 - Ajax IV. Get() y Post() II ](https://www.youtube.com/watch?v=zTF35_JE6Dw&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=71)
+- [Video 70 - Ajax V. Controlando errores del servidor. ](https://www.youtube.com/watch?v=e2FCiPrmz_4&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=72)
 
 # Apuntes
 
@@ -661,7 +668,64 @@ foto_nueva.src = "images/foto.jpg";
 ## Video 64 - Formularios VIII - Validación II.
 - Validaciones varias: añadiendo varias formas de validación.
 
-## Video 65 - Formularios VIX - Validación III.
+## Video 65 - Formularios IX - Validación III.
+- Validaciones: añadiendo mensajes personalizados y varios tipos de validaciones para un mismo campo.
+
+## Video 66 - Formularios X - Validación IV.
+- Validaciones: colores y cambios de letras.
+
+## Video 67 - Formarios XI - Validación V
+- Terminando práctica de una validación de formularios completa. Contraseña y confirma contraseña.
+
+## Video 68 - Ajax I
+- Asynchronous JAvascript Xml
+- Dota a las páginas webs de un comportamiento típico de una aplicación de escritorio.
+- Cuando se hace una petición a un servidor web, la respuesta del servidor no necesita cargar la página completa si no que se añade a la página ya cargada. Se puede utilizar con secciones, por ej.
+
+**Ventajas**
+- Mostrar nuevo contenido HTML sin recargar la página.
+- Enviar un formulario y mostrar una respuesta inmediatamente.
+- Hacer login en una página web sin abandonar la misma.
+- Mostar resultados automáticos de encuestas.
+- Buscar información en una BBDD y mostrar los resultados inmediatamente. Por ej. con un carro de la compra.
+
+![No Ajax vs Ajax](./Capturas/video68_i.png "No AJax VS Ajax")
+
+**Elementos fundamentales**
+- Navegador web
+- Javascript
+- Servidor web
+- Objeto XMLHttpRequest(XHR): permite hacer peticiones a un servidor y que esas peticiones vuelvan como respuesta. Pertenece a los navegadores webs.
+	- Es el núcleo/parte importante del core de Ajax.
+
+![Pasos para enviar petición al servidor y procesar la respuesta](./Capturas/video68_ii.png "No AJax VS Ajax")
+
+## Video 69 - Ajax II
+- Simplicación con jQuery: función **load()**.
+- Con load() se le puede pasar un añadido a al URL a cargar para que solo tenga en cuenta el ID de un elemento y no cargue toda la página.
+
+## Video 70 - Ajax III. Get() y Post() I.
+- Cuando el servidor (respuesta) envía información la puede hacer en xml, json, texto u otros.
+	- La función **load()** no sirven para procesar estos elementos, por eso se utilizan las funciones **Get()** y **Post()**.
+
+```javascript
+// Sintáxis
+// El último argumento es opcional.
+$.get(url, datos_enviar, función_procesa_respuesta);
+$.post(url, datos_enviar, función_procesa_respuesta);
+```
+
+## Video 71 - Ajax IV. Get() y Post() II.
+- Continuación de la práctica anterior.
+- Función **serialize()**: recorre todos los campos de **$(this)**.
+- **get()**: se suele utilizar para acciones de consulta.
+- **post()**: utilizado cuando se realizan modificaciones (actualizar, eliminar o insertar registros). No tiene límites en cuanto a información que se envía al servidor (caracteres).
+
+```javascript
+var datosFormulario = $(this).serialize();
+```
+
+## Video 72 - Ajax V. Control de errores del servidor
 
 # Notas
 - Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.

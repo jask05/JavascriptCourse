@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Video 64</title>
+	<title>Video 66</title>
 	<style>
 		body {
 			background-color: #FFC;
@@ -32,6 +32,16 @@
 		#e_mail {
 			visibility: hidden;
 		}
+
+		label.error{
+			font-weight: bold;
+			color: red;
+		}
+
+		input.error{
+			background-color: crimson;
+			border: 1px solid red;
+		}
 	</style>
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/jquery.validate.js"></script>
@@ -55,9 +65,7 @@
 					edad: {
 						number: "Debe ser numérico.",
 						range: "Entre 1 y 105"
-					},
-					mail: "Email incorrecto",
-					p_web: "http[s]://...."
+					}
 				}
 			});
 		});
