@@ -75,14 +75,20 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 - [Video 69 - Ajax II. ](https://www.youtube.com/watch?v=34Vb5ggTpXc&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=69)
 - [Video 70 - Ajax III. Get() y Post() I ](https://www.youtube.com/watch?v=E7k6PjC71_Y&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=70)
 - [Video 71 - Ajax IV. Get() y Post() II ](https://www.youtube.com/watch?v=zTF35_JE6Dw&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=71)
-- [Video 70 - Ajax V. Controlando errores del servidor. ](https://www.youtube.com/watch?v=e2FCiPrmz_4&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=72)
+- [Video 72 - Ajax V. Controlando errores del servidor. ](https://www.youtube.com/watch?v=e2FCiPrmz_4&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=72)
+- [Video 73 - Ajax VI. Objetos Json I. ](https://www.youtube.com/watch?v=pyvyBx4PAZU&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=73)
+- [Video 74 - Ajax VII. Objetos Json II. ](https://www.youtube.com/watch?v=KvPRyAQdOLs&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=74)
+- [Video 75 - Ajax VIII. Trabajando con Google Maps. ](https://www.youtube.com/watch?v=lKBfH7qP10Y&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=75)
+- [Video 76 - Errores y depuración I. ](https://www.youtube.com/watch?v=oj_qfvd1t7Y&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=76)
+- [Video 77 - Errores y depuración II. ](https://www.youtube.com/watch?v=kMUI5gWfwFE&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=77)
+- [Video 78 - Enlaces de interés. ](https://www.youtube.com/watch?v=MTIfpzJPei8&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID&index=78)
 
 # Apuntes
 
-## Vídeo 01 - Presentación
-- Nada
+## Vídeo 01 - Presentación.
+- Solo la presentación.
 
-## Video 02 - Introducción
+## Video 02 - Introducción.
 - Java **NO ES** Javascript.
 - Java: lenguaje de programación de propósito general. Se pueden crear aplicaciones "para todo". Se puede crear una aplicación que se ejecute en una web (applets), o que se ejecute en un servidor, también una de escritorio (local). También se pueden ejecutar en dispositivos móviles.
 - Javascript: lenguaje de programación de propósito concreto. Tiene un objetivo concreto, ejecutarse en un navegador. No es posible aplicar apps JS que se ejecuten en un servidor o de escritorio (aunque esto último tiene matices). Siempre se ejecutará en un navegador.
@@ -107,14 +113,14 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 		- En cualquier otra parte.
 	- En archivos externos con extensión **.js**.
 
-## Video 03 - Sintaxis Básica I. Ubicación del código
+## Video 03 - Sintaxis Básica I. Ubicación del código.
 - El código JS se puede colocar dentro del **body** o detrás de este.
 - El navegador interpreta la página web de arriba hacia abajo. Antes del body se encuentra con el código JS, por lo que implica que este código se ejecuta antes que el contenido web. 
 - Ventanas alert:
 	- Son modales, se abren en primer plano.
 	- Detienen el flujo de ejecución del programa.
 
-## Video 04 - Sintaxis Básica II. Estructuras Básicas
+## Video 04 - Sintaxis Básica II. Estructuras Básicas.
 - Sentencia Javascript. Terminan en **;**
 - Funciones predefinidas: vienen con el propio lenguaje para ser usadas cuando se necesite.
 	- alert();
@@ -147,7 +153,7 @@ Curso de Javascript desde 0 - [Píldoras informáticas](https://www.youtube.com/
 	var puntuacion = 5, record = 5000, jugador = "Juan"
 	```
 
-## Video 05 - Sintaxis Básica III. Operadores Básicos
+## Video 05 - Sintaxis Básica III. Operadores Básicos.
 - Operadores básicos:
 	- Suma: +
 	- Resta: -
@@ -162,7 +168,7 @@ de varias
 líneas */
 ```
 
-## Video 06 - Sintaxis Básica IV. Operadores y prompt
+## Video 06 - Sintaxis Básica IV. Operadores y prompt.
 - Prompt: función de entrada de datos (de fuera del programa a dentro).
 - Alert: función de salida de datos. Devuvelve la información almacenada.
 - Incremento y decremento:
@@ -173,7 +179,7 @@ líneas */
 	- **++**: incrementa en **1** el valor de una variable: **record++**.
 	- **--**: decrementa en **1** el valor de una variable: **record--**.
 
-## Video 07 - Sintaxis Básica V. Arrays, Matrices, Arreglos
+## Video 07 - Sintaxis Básica V. Arrays, Matrices, Arreglos.
 - Arrays: "gran variable que puede tener almacenado un grupo de valores".
 - Cómo declarar un array (dos formas):
 ```javascript
@@ -200,10 +206,10 @@ articulos.pop();
 articulos.shift();
 ```
 
-## Video 08 - Sintaxis Básica V. Arrays, Matrices, Arreglos II
+## Video 08 - Sintaxis Básica V. Arrays, Matrices, Arreglos II.
 - Utilizando push y unshift
 
-## Video 09 - POO I
+## Video 09 - POO I.
 - Lenguajes orientados a procedimientos.
 - Lenguajes orientados a objetos.
 	- Objeto: coche, lavadora, mesa, etc.
@@ -217,10 +223,10 @@ articulos.shift();
 		- boton.style.backgroundColor="red";
 		- boton.focus();	
 
-## Video 10 - POO II
+## Video 10 - POO II.
 - Cambios con style y uso de getElementById
 
-## Video 11 - Control de flujo. Condicional If I
+## Video 11 - Control de flujo. Condicional If I.
 - Permite alterar el flujo de ejecución del script/programa.
 - Operadores de comparación
 	- **==**: Igual que...
@@ -232,7 +238,7 @@ articulos.shift();
 	- **===**: estrictamente igual que... (comprueba también el tipo)
 	- **!==**: estrictamente diferente que... (comprueba tipos)
 
-## Video 12 - Control de flujo. Condicional If II
+## Video 12 - Control de flujo. Condicional If II.
 - If/else/else if
 - AND y OR
 	- Operadores lógicos
@@ -244,7 +250,7 @@ articulos.shift();
 	- **typeOf()**: devuelve el tipo de variable la cual se le pasa por parámetro.
 	- **parseInt()**: transforma un string en número entero.
 
-## Video 13 - Control de flujo. Condicional If III
+## Video 13 - Control de flujo. Condicional If III.
 - Anidamiento de If.
 	
 ```javascript
@@ -257,11 +263,11 @@ else{
 }
 ```
 
-## Video 14 - Control flujo. Condicional If IV
+## Video 14 - Control flujo. Condicional If IV.
 - Calculadora mediante prompts + casos en el que se introducen valores no controlados.
 - **isNaN()**: comprueba si NO es un número. Falso si es un número.
 
-## Video 15 - Control de flujo. Bucle While I
+## Video 15 - Control de flujo. Bucle While I.
 - Bucles
 	- Determinados: for.
 		- Sin llegar a ejecutar el programa se sabe cuántas veces se va a repetir los elementos dentro de este.
@@ -275,7 +281,7 @@ while(condicion){
 // continúa el programa
 ```
 
-## Video 16 - Control de flujo. Bucle While II
+## Video 16 - Control de flujo. Bucle While II.
 - While repetitivos hasta que se cumpla la condición.
 
 ```javascript
@@ -285,7 +291,7 @@ while(edad <= 0 || edad > 100 || isNaN(edad)){
 }
 ```
 
-## Vídeo 17 - Control de flujo. Do While I
+## Vídeo 17 - Control de flujo. Do While I.
 - Utilidad exacta que a un While (con algún matiz).
 - En el bucle While (normal), si la condición es falsa, nunca se ejecuta el programa. En Do-While el código que está dentro se ejecuta una vez (aunque sea falsa).
 
@@ -297,10 +303,10 @@ do {
 // continúa el programa
 ```
 
-## Vídeo 18 - Control de flujo. Do While II
+## Vídeo 18 - Control de flujo. Do While II.
 - No hay notas
 
-## Vídeo 19 - Control de flujo. Bucle For I
+## Vídeo 19 - Control de flujo. Bucle For I.
 - Tipo de bucle: determinado
 
 ```javascript
@@ -310,10 +316,10 @@ for(inicio;condicion;incremento/decremento){
 // continúa el programa
 ```
 
-## Video 20 - Control de flujo. Bucle For II
+## Video 20 - Control de flujo. Bucle For II.
 - No hay notas
 
-## Video 21 - Funciones I
+## Video 21 - Funciones I.
 - Forma de repetir trozos de código sin tener que re-escribirlos cada vez que se necesitan utilizar.
 - Dentro de una función puede haber llamadas a otras funciones.
 ```javascript
@@ -340,7 +346,7 @@ suma(5,7);
 ## Video 23 - Funciones III. Calculadora arcáica.
 - Realizando calculadora mediante prompts y Do-while.
 
-## Video 24 - Funciones y eventos. Introducción a eventos
+## Video 24 - Funciones y eventos. Introducción a eventos.
 - **Eventos**: desencadenantes de acciones
 	- Pasar por encima de una imagen, click con el botón izquierdo, seleccionar URL, etc.
 	- Permite interactuar con la página web.
@@ -358,20 +364,20 @@ suma(5,7);
 	- **onkeypress** => Pulsar una tecla => Elementos de formulario y body.
 	- **onkeyup** => Soltar una tecla pulsada => Elementos de formulario y body.
 
-## Video 25 - Funciones. Práctica guiada I
+## Video 25 - Funciones. Práctica guiada I.
 - Se añade función onClick a los botones para que aparezcan los números en el visor.
 - Se añade el comportamiento de concatenación de números al ser pulsados.
 
-## Video 26 - Funciones. Práctica guiada II
+## Video 26 - Funciones. Práctica guiada II.
 - Añadida funcionalidad al botón de sumar, acumulando el valor si se pulsa más de una vez dicho botón.
 
-## Video 27 - Funciones. Práctica guiada III
+## Video 27 - Funciones. Práctica guiada III.
 - Añadiendo funcionalidad al botón igual (=).
 
-## Video 28 - Funciones. Práctica guiada IV
+## Video 28 - Funciones. Práctica guiada IV.
 - Terminando la calculadora (solo suma y restra).
 
-## Video 29 - jQuery I
+## Video 29 - jQuery I.
 - Librería de Javascript que ayuda en la creación de tareas frecuentes a la hora de programar en Javascript. Ejemplo:
 	- Seleccionar elementos.
 	- Agregar nuevo contenido.
@@ -542,18 +548,18 @@ $("img").click(function(){
 });
 ```
 
-## Video 43 - Eventos en jQuery II. Funciones hover() y toggle()
+## Video 43 - Eventos en jQuery II. Funciones hover() y toggle().
 - Explicación de la función hover().
 
-## Video 44 - Eventos en jQuery III. Funciones toggle()
+## Video 44 - Eventos en jQuery III. Funciones toggle().
 - Explicación de la función toggle().
 - Toggle() no funciona como antes, tener en cuenta [ ejemplos ](https://api.jquery.com/toggle/).
 
-## Video 45 - Eventos con jQuery IV - next()
+## Video 45 - Eventos con jQuery IV - next().
 - Explicación de la función next().
 - next() hace referencia al siguiente elemento al cual se está "apuntando".
 
-## Video 46 - Eventos con jQuery V - bind()
+## Video 46 - Eventos con jQuery V - bind().
 - Permite pasar un segundo argumento como datos adicionales para enviarle a la función, y luego asignarle que función ejecutar.
 - Se puede utilizar dos o más eventos a la vez en una misma llamada, separados por un espacio.
 - **Objeto**: JS considera a todo como un objeto. El objeto evento tiene propiedades y métodos. Cuando se hace click en una imagen se genera el objeto **evento click**. Tiene propiedades y métodos.
@@ -620,7 +626,7 @@ var foto_nueva = new Image();
 foto_nueva.src = "images/foto.jpg";
 ```
 
-## Video 52 - Imágenes con FancyBox
+## Video 52 - Imágenes con FancyBox.
 - Instalación de librearía y prueba con galería de imágenes.
 
 ## Video 53 - Ventanas emergentes e iframes I.
@@ -633,7 +639,7 @@ foto_nueva.src = "images/foto.jpg";
 ## Video 55 - Ventanas emergentes e iframes III.
 - Iframe con Fancybox
 
-## Video 56 - Menús animados
+## Video 56 - Menús animados.
 - Utilizando librearías externas
 
 ## Video 57 - Formularios I.
@@ -641,7 +647,7 @@ foto_nueva.src = "images/foto.jpg";
 - En vez de crear variables, una por cada elemento, se puede utilizar **$(":text")** (es el **type**) del formulario.
 - Para acceder a los inputs del formulario se utiliza **$(":input")**.
 
-## Video 58 - Formularios II. Eventos I
+## Video 58 - Formularios II. Eventos I.
 - Eventos
 	- Al enviar: **submit()**
 	- Al coger el foco (seleccionado): **focus()**
@@ -650,7 +656,7 @@ foto_nueva.src = "images/foto.jpg";
 	- Al pasar el ratón por encima
 	- Etc.
 
-## Video 59 - Formularios III. Eventos II
+## Video 59 - Formularios III. Eventos II.
 - Se continúa avanzando con la práctica del vídeo 58, utilizando el evento **focus()**.
 
 ## Video 60 - Formularios IV. Eventos III.
@@ -674,10 +680,10 @@ foto_nueva.src = "images/foto.jpg";
 ## Video 66 - Formularios X - Validación IV.
 - Validaciones: colores y cambios de letras.
 
-## Video 67 - Formarios XI - Validación V
+## Video 67 - Formarios XI - Validación V.
 - Terminando práctica de una validación de formularios completa. Contraseña y confirma contraseña.
 
-## Video 68 - Ajax I
+## Video 68 - Ajax I.
 - Asynchronous JAvascript Xml
 - Dota a las páginas webs de un comportamiento típico de una aplicación de escritorio.
 - Cuando se hace una petición a un servidor web, la respuesta del servidor no necesita cargar la página completa si no que se añade a la página ya cargada. Se puede utilizar con secciones, por ej.
@@ -700,7 +706,7 @@ foto_nueva.src = "images/foto.jpg";
 
 ![Pasos para enviar petición al servidor y procesar la respuesta](./Capturas/video68_ii.png "No AJax VS Ajax")
 
-## Video 69 - Ajax II
+## Video 69 - Ajax II.
 - Simplicación con jQuery: función **load()**.
 - Con load() se le puede pasar un añadido a al URL a cargar para que solo tenga en cuenta el ID de un elemento y no cargue toda la página.
 
@@ -725,8 +731,41 @@ $.post(url, datos_enviar, función_procesa_respuesta);
 var datosFormulario = $(this).serialize();
 ```
 
-## Video 72 - Ajax V. Control de errores del servidor
+## Video 72 - Ajax V. Control de errores del servidor.
+- Se utiliza la función **fail(nombre_funcion)** para trabajar con estos elementos.
+	- La función ~~error()~~ ya **NO** se utiliza en las últimas versiones de jQuery (probado con la 3.4.1).
+
+## Video 73 - Ajax VI - Objetos Json I.
+- **¿Qué es un Json?**: (acrónimo de JavaScript Object Notation, «notación de objeto de JavaScript») es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript, aunque, debido a su amplia adopción como alternativa a XML, se considera (año 2019) un formato independiente del lenguaje.
+	- Está formado por elementos **clave:valor**.
+
+## Video 74 - Ajax VII - Objetos Json II.
+- Siguiendo con la práctica anterior para que devuelva todos los parámetros de Json y no solo uno.
+
+## Video 75 - Ajax VIII - Trabajando con Google Maps.
+- Se trabajará con el API de Google Maps para poder realizar diferentes funciones con este servicio.
+- Más información: [jQuery Google Map](https://tilotiti.github.io/jQuery-Google-Map/)
+
+## Video 76 - Errores y depuración I.
+- Localizar errores de sintáxis y subsanarlos.
+- Las **últimas versiones** de los navegadores, abren una consola de depuración pulsando la tecla **F12**.
+- Si se pulsa sobre el error, remarcará la línea que lo tiene.
+
+## Video 77 - Errores y depuración II.
+- Para utilizar la consola para ver diferentes valores se tiene que utilizar la función **console.log()**.
+- **Puntos de detención**: la última línea que se va a leer es la anterior a la del punto establecido.
+	- **Ejecutar el código paso a paso**: botón de flecha como una U invertida.
+
+## Video 78 - Enlaces de interés
+- Mozilla Developer Javascript
+- Devguru
+- Librosweb Javascript
+- MSDN Javascript
+- W3 Schools
+- JQuery español
+- Librojquery.com
+- Librosweb Ajax
 
 # Notas
-- Se puede ver errores de código en Google Chrome pulsando la teclad **F12** > **Consola**.
+- Se puede ver errores de código en Google Chrome pulsando la tecla **F12** > **Consola**.
 - **Prompt**: el segundo parámetro que se le pasa es el mensaje de ayuda que aparecería en el cuadro de texto (como un placeholder).

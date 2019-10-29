@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Video 75</title>
+	<link href="video69/externa.css" rel="stylesheet">
+	<style>
+		#mapa h2 {
+			color: black;
+		}
+
+		#mapa p {
+			color: black;
+		}
+
+		#mapa {
+
+			height: 400px;
+			width: 760px;
+
+		}
+	</style>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQcfCoRlUJNTVqTfUjE26au-768gBk8lo"></script>
+
+	<script src="js/jquery.googlemap.js"></script>
+	
+	<script>
+		  $(function() {
+			$("#mapa").googleMap({
+				zoom: 18, // Initial zoom level (optional)
+				coords: [48.895651, 2.290569] // GPS coords
+			});
+			$("#mapa").addMarker({
+				coords: [48.895651, 2.290569], // GPS coords
+				title: 'Marker n°1', // Title
+      			text:  '<b>Lorem ipsum</b> dolor sit amet'
+			});
+
+			// Marker 2
+			$("#mapa").addMarker({
+				coords: [48.869439, 2.308664]
+			});
+		})
+	</script>
+
+</head>
+
+<body>
+	
+	<div class="cabecera">
+		<p class="logo">Mapas</p>
+	</div>
+	<div class="contenido">
+		<div class="principal">
+			<h1>Google Maps</h1>
+			
+			<div id="mapa"></div>
+			
+		</div>
+	</div>
+	
+	
+</body>
+
+</html>
